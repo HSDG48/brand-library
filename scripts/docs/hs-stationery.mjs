@@ -38,8 +38,8 @@ function card(H, v, lang, person) {
     ? `<div class="side back" style="background:${K.navy};color:#fff">
       ${markSvg('#fff', '#fff', 'width:15mm;height:15mm;position:relative')}<span class="web" style="position:relative">${web(B)}</span>
       <span class="fam" style="position:relative">${familyRow(5.4, 2.2)}</span></div>`
-    : `<div class="side back" style="background:${K.accent};color:${K.navy}">
-      ${markSvg(K.navy, K.navy, 'width:15mm;height:15mm;position:relative')}<span class="tag d" style="position:relative">${esc(T.promise.replaceAll('|', ' '))}</span><span class="web" style="position:relative">${web(B)}</span>
+    : `<div class="side back" style="background:${K.navy};color:#fff">
+      ${markSvg('#fff', K.accent, 'width:15mm;height:15mm;position:relative')}<span class="tag d" style="position:relative">${esc(T.promise.replaceAll('|', ' '))}</span><span class="web" style="position:relative">${web(B)}</span>
       ${v === 'endorsed' ? `<span class="end">${esc(B.endorsement[lang])} · ${web(PARENT.brand)}</span>` : ''}</div>`;
   return head(H, `Business card ${lang}`, `
 @page{size:91mm 61mm;margin:0}

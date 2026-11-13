@@ -19,9 +19,9 @@ All in `logo/svg/` (vector) and `logo/png/` (transparent, 512 / 1024 / 2048 / 40
 | `hs-marketing-stacked-*` | Square formats, standalone. |
 | `hs-marketing-wordmark-*` | When the mark is already nearby. |
 | `hs-marketing-mark-*` | Avatars, favicons, small sizes. |
-| `hs-marketing-app-icon` · `-navy` | Rounded tile: Navy mark on Coral Chispa, or white on Navy. |
+| `hs-marketing-app-icon` · `-navy` | Rounded Navy tile: white mark with the lower half in Coral Chispa, or all white. |
 
-Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (mark on the accent), `black` (one-colour print), `white` (Navy, Blue or photos).
+Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (white + accent mark on Navy), `black` (one-colour print), `white` (Navy, Blue or photos).
 
 Write the name **HS Marketing** (capital HS, a space, then "Marketing"). Accent: **Coral Chispa** (#FF6B4A), graphic device: hand-drawn underline.
 
@@ -53,7 +53,7 @@ Cards with a real person's details go in `private/` (team repo only; people are 
 ## Data
 
 - `brand.json`: colours (with CMYK/Pantone estimates), fonts, voice, services, contacts, Spanish and English copy (single source of truth)
-- Rebuild: `node scripts/build-hs.mjs hs-marketing`, then `node scripts/icons-hs.mjs hs-marketing`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-marketing`
+- Rebuild: `node scripts/build-hs.mjs hs-marketing`, then `node scripts/icons-hs.mjs`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-marketing`
 - Fonts: Bricolage Grotesque and Manrope (SIL OFL, in `assets/fonts/`)
 
 ## Licence

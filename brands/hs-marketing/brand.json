@@ -510,7 +510,7 @@
     "Offices: the sites only say «Atendemos en Madrid y Bilbao»; the kit shows the two addresses as confirmed by the owner.",
     "The site lockup SVGs (in source/) are not set in Bricolage Grotesque; the kit redraws every lockup in Bricolage. Update the sites to the kit logos.",
     "The example figures on hsmarketing.es (+38 %, +120 %) are not used anywhere in the kit.",
-    "Favicons are now accent tiles with the Navy mark; the plain two-tone mark is kept as icons/favicon-mark.svg."
+    "Favicons, app icon and accent avatar are Navy tiles with a white + accent mark (the owner chose this over full accent tiles, 2026-11-13); the plain two-tone mark is kept as icons/favicon-mark.svg."
   ],
   "version": "1.0.0",
   "motif": {

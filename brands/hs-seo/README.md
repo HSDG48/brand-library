@@ -19,9 +19,9 @@ All in `logo/svg/` (vector) and `logo/png/` (transparent, 512 / 1024 / 2048 / 40
 | `hs-seo-stacked-*` | Square formats, standalone. |
 | `hs-seo-wordmark-*` | When the mark is already nearby. |
 | `hs-seo-mark-*` | Avatars, favicons, small sizes. |
-| `hs-seo-app-icon` · `-navy` | Rounded tile: Navy mark on Verde Ranking, or white on Navy. |
+| `hs-seo-app-icon` · `-navy` | Rounded Navy tile: white mark with the lower half in Verde Ranking, or all white. |
 
-Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (mark on the accent), `black` (one-colour print), `white` (Navy, Blue or photos).
+Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (white + accent mark on Navy), `black` (one-colour print), `white` (Navy, Blue or photos).
 
 Write the name **HS SEO** (capital HS, a space, then "SEO"). Accent: **Verde Ranking** (#00C389), graphic device: underline that rises at the end.
 
@@ -53,7 +53,7 @@ Cards with a real person's details go in `private/` (team repo only; people are 
 ## Data
 
 - `brand.json`: colours (with CMYK/Pantone estimates), fonts, voice, services, contacts, Spanish and English copy (single source of truth)
-- Rebuild: `node scripts/build-hs.mjs hs-seo`, then `node scripts/icons-hs.mjs hs-seo`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-seo`
+- Rebuild: `node scripts/build-hs.mjs hs-seo`, then `node scripts/icons-hs.mjs`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-seo`
 - Fonts: Bricolage Grotesque and Manrope (SIL OFL, in `assets/fonts/`)
 
 ## Licence

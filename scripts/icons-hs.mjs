@@ -1,5 +1,5 @@
 // Favicons, app icons, webmanifest and social avatars for the HS Digital family.
-// Sub-brands: Navy mark on their accent tile (tells the four sites apart in a row of tabs).
+// Sub-brands: Navy tile, white mark with the lower half in the accent (tells the four sites apart in a row of tabs).
 // Parent: full-colour mark on a white tile. Run: node scripts/icons-hs.mjs [slug ...]
 import fs from 'node:fs';
 import path from 'node:path';
@@ -16,8 +16,8 @@ for (const slug of slugs) {
     fs.writeFileSync(path.join(dir, sub, name), data);
   };
   // Icon colours: tile + mark halves.
-  const tile = isParent ? { bg: K.white, top: K.navy, bottom: K.blue } : { bg: K.accent, top: K.navy };
-  const theme = isParent ? K.navy : K.accent;
+  const tile = isParent ? { bg: K.white, top: K.navy, bottom: K.blue } : { bg: K.navy, top: K.white, bottom: K.accent };
+  const theme = K.navy;
 
   // Browser tab: rounded tile; at 16 px the mark grows so the H cut stays open.
   const fav = appIcon(64, { ...tile, scale: 0.72, radius: 0.22 });
@@ -55,7 +55,7 @@ for (const slug of slugs) {
   // Avatars: square, mark inside the central circle so round crops never cut it.
   const avatars = isParent
     ? { 'avatar-navy': { bg: K.navy, top: K.white }, 'avatar-light': { bg: K.white, top: K.navy, bottom: K.blue }, 'avatar-blue': { bg: K.blue, top: K.white } }
-    : { 'avatar-accent': { bg: K.accent, top: K.navy }, 'avatar-navy': { bg: K.navy, top: K.white }, 'avatar-light': { bg: K.white, top: K.navy, bottom: K.blue } };
+    : { 'avatar-accent': { bg: K.navy, top: K.white, bottom: K.accent }, 'avatar-navy': { bg: K.navy, top: K.white }, 'avatar-light': { bg: K.white, top: K.navy, bottom: K.blue } };
   for (const [name, o] of Object.entries(avatars)) {
     const svg = appIcon(1024, { ...o, radius: 0, scale: 0.52 });
     out('social', `${name}.svg`, svg);

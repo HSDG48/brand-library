@@ -17,9 +17,9 @@ function colourways(H) {
     black: { top: K.black, bottom: K.black, word: K.black, line: K.black, rule: K.black, bg: K.white }, // fax, stamps, press
     white: { top: K.white, bottom: K.white, word: K.white, line: K.white, rule: K.accent || K.white, bg: K.navy }, // reversed
   };
-  // On the brand colour: white on Blue for the parent, Navy on the accent for sub-brands.
+  // On the brand colour: white on Blue for the parent; sub-brands: white + accent mark on Navy.
   if (isParent) cw.blue = { top: K.white, bottom: K.white, word: K.white, line: K.white, bg: K.blue };
-  else cw.accent = { top: K.navy, bottom: K.navy, word: K.navy, line: K.navy, rule: K.navy, bg: K.accent };
+  else cw.accent = { top: K.white, bottom: K.accent, word: K.white, line: K.white, rule: K.accent, bg: K.navy };
   return cw;
 }
 
@@ -65,12 +65,12 @@ function buildBrand(slug) {
     }
   }
 
-  // App icons: sub-brands = Navy mark on the accent tile; parent = white mark on Navy, and colour mark on white.
+  // App icons: sub-brands = white + accent mark on a Navy tile; parent = white mark on Navy, and colour mark on white.
   if (isParent) {
     write(`${slug}-app-icon`, appIcon(512, { bg: K.navy, top: K.white }), '#ffffff');
     write(`${slug}-app-icon-light`, appIcon(512, { bg: K.white, top: K.navy, bottom: K.blue }), K.mist);
   } else {
-    write(`${slug}-app-icon`, appIcon(512, { bg: K.accent, top: K.navy }), '#ffffff');
+    write(`${slug}-app-icon`, appIcon(512, { bg: K.navy, top: K.white, bottom: K.accent }), '#ffffff');
     write(`${slug}-app-icon-navy`, appIcon(512, { bg: K.navy, top: K.white }), '#ffffff');
   }
 

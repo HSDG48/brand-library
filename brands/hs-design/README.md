@@ -19,9 +19,9 @@ All in `logo/svg/` (vector) and `logo/png/` (transparent, 512 / 1024 / 2048 / 40
 | `hs-design-stacked-*` | Square formats, standalone. |
 | `hs-design-wordmark-*` | When the mark is already nearby. |
 | `hs-design-mark-*` | Avatars, favicons, small sizes. |
-| `hs-design-app-icon` · `-navy` | Rounded tile: Navy mark on Amarillo Boceto, or white on Navy. |
+| `hs-design-app-icon` · `-navy` | Rounded Navy tile: white mark with the lower half in Amarillo Boceto, or all white. |
 
-Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (mark on the accent), `black` (one-colour print), `white` (Navy, Blue or photos).
+Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (white + accent mark on Navy), `black` (one-colour print), `white` (Navy, Blue or photos).
 
 Write the name **HS Design** (capital HS, a space, then "Design"). Accent: **Amarillo Boceto** (#FFC233), graphic device: highlighter band.
 
@@ -53,7 +53,7 @@ Cards with a real person's details go in `private/` (team repo only; people are 
 ## Data
 
 - `brand.json`: colours (with CMYK/Pantone estimates), fonts, voice, services, contacts, Spanish and English copy (single source of truth)
-- Rebuild: `node scripts/build-hs.mjs hs-design`, then `node scripts/icons-hs.mjs hs-design`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-design`
+- Rebuild: `node scripts/build-hs.mjs hs-design`, then `node scripts/icons-hs.mjs`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-design`
 - Fonts: Bricolage Grotesque and Manrope (SIL OFL, in `assets/fonts/`)
 
 ## Licence

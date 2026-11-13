@@ -65,7 +65,7 @@ function build(H, lang) {
   </div>`));
 
   // 04 Logo
-  const onBrand = isParent ? ['blue', 'horizontal-white', K.blue] : ['accent', 'horizontal-accent', K.accent];
+  const onBrand = isParent ? ['blue', 'horizontal-white', K.blue] : ['navy', 'horizontal-accent', K.navy];
   const tiles = [['white', img('horizontal-colour')], ['navy', img('horizontal-white')], [onBrand[0], img(onBrand[1])],
     ['soft', `<div style="display:flex;gap:7mm;align-items:center">${img('mark-colour', 'height:20mm')}${img('app-icon', 'height:20mm')}</div>`]];
   const tileNames = isParent ? G.logo.tilesParent : G.logo.tiles;
@@ -104,7 +104,7 @@ function build(H, lang) {
 
   // 06 Versions
   const cws = ['colour', 'navy', 'black', 'white', isParent ? 'blue' : 'accent'];
-  const cwBg = { colour: 'white', navy: 'white', black: 'white', white: 'navy', accent: 'accent', blue: 'blueBg' };
+  const cwBg = { colour: 'white', navy: 'white', black: 'white', white: 'navy', accent: 'navy', blue: 'blueBg' };
   const shapes = ['horizontal-colour', 'stacked-colour', isParent ? 'solutions-horizontal-colour' : `endorsed-stacked-${lang}-colour`, 'mark-colour'];
   const shapeNames = isParent ? [G.versions.shapes[0], G.versions.shapes[1], ['HS Digital Solutions', lang === 'es' ? 'Contratos y documentos legales' : 'Contracts and legal documents'], G.versions.shapes[3]] : G.versions.shapes;
   P.push(page(G.versions.k, `<h1>${G.versions.h}</h1><p class="lead">${G.versions.lead}</p>
@@ -183,7 +183,7 @@ function build(H, lang) {
   const demo = (dark) => `<div class="tile" style="min-height:74mm;padding:9mm;justify-content:flex-start;align-items:flex-end;overflow:hidden;background:${dark ? K.navy : '#fff'};${dark ? '' : `border:.25mm solid ${K.line};`}">
     ${dark ? `${leaf('top', '#ffffff', 'right:-20mm;top:-16mm;width:72mm;height:72mm;max-height:none', 0.07)}${leaf('bottom', K.blue, 'right:-20mm;top:-16mm;width:72mm;height:72mm;max-height:none', 0.5)}` : markSvg(K.sky, K.sky, 'position:absolute;right:-20mm;top:-16mm;width:72mm;height:72mm;max-height:none')}
     <div class="d" style="position:relative;font-size:21pt;font-weight:800;letter-spacing:-.025em;line-height:1.12;color:${dark ? '#fff' : K.navy}">${head(T.promise, !dark)}</div></div>`;
-  const fourAccents = isParent ? `<div><div class="label">${M.four}</div><div class="grid g4" style="margin-top:3mm">${B.family.members.map((s) => { const X2 = loadHs(s); return `<div><div style="height:16mm;border-radius:3mm;background:${X2.K.accent};display:flex;align-items:center;justify-content:center">${markSvg(K.navy, K.navy, 'width:8mm;height:8mm')}</div><div class="cap">${esc(X2.brand.name)}<span>${esc(X2.brand.motif.accentName)} · ${X2.K.accent}</span></div></div>`; }).join('')}</div><p class="small" style="margin-top:2mm">${M.fourText}</p></div>` : '';
+  const fourAccents = isParent ? `<div><div class="label">${M.four}</div><div class="grid g4" style="margin-top:3mm">${B.family.members.map((s) => { const X2 = loadHs(s); return `<div><div style="height:16mm;border-radius:3mm;background:${K.navy};display:flex;align-items:center;justify-content:center">${markSvg('#fff', X2.K.accent, 'width:8mm;height:8mm')}</div><div class="cap">${esc(X2.brand.name)}<span>${esc(X2.brand.motif.accentName)} · ${X2.K.accent}</span></div></div>`; }).join('')}</div><p class="small" style="margin-top:2mm">${M.fourText}</p></div>` : '';
   P.push(page(M.k, `<h1>${isParent ? M.hParent : M.h}</h1><p class="lead">${esc(T.motifText)}</p>
   <div class="body">
     <div class="grid g2">${[false, true].map((d) => `<div>${demo(d)}<div class="cap">${d ? M.dark : M.light}</div></div>`).join('')}</div>

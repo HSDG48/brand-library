@@ -54,7 +54,7 @@ Cards with a real person's details go in `private/` (team repo only; people are 
 
 - `brand.json`: colours (with CMYK/Pantone estimates), fonts, voice, services, contacts, Spanish and English copy (single source of truth)
 - `master/hs-mark.svg`: master geometry of the mark, shared by the whole family
-- Rebuild: `node scripts/build-hs.mjs hs-digital`, then `node scripts/icons-hs.mjs hs-digital`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-digital`
+- Rebuild: `node scripts/build-hs.mjs hs-digital`, then `node scripts/icons-hs.mjs`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-digital`
 - Fonts: Bricolage Grotesque and Manrope (SIL OFL, in `assets/fonts/`)
 
 ## Licence
