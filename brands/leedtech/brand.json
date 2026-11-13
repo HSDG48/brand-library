@@ -1,0 +1,283 @@
+{
+  "name": "LeedTech",
+  "slug": "leedtech",
+  "wordmarkText": "LEEDTECH",
+  "legalName": "",
+  "parent": {
+    "name": "Grupo Lanak",
+    "nameCa": "Grup Lanak",
+    "slug": "grupo-lanak"
+  },
+  "endorsement": {
+    "es": "Una empresa del Grupo Lanak",
+    "ca": "Una empresa del Grup Lanak"
+  },
+  "tagline": "Talent Beyond Borders",
+  "taglineRule": "Always in English, smaller than the wordmark.",
+  "category": "Selección de personal (recruitment)",
+  "description": "LeedTech es la empresa de selección de personal del Grupo Lanak. Conectamos a profesionales cualificados con empresas de toda España: buscamos, evaluamos y acompañamos el talento hasta su incorporación, sin importar de dónde venga.",
+  "boilerplate": "",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "sectors": [
+    "Construcción",
+    "Logística",
+    "Industria"
+  ],
+  "values": [
+    {
+      "name": "Cercanía",
+      "text": "Tratamos a cada candidato y a cada cliente por su nombre. Respondemos rápido y hablamos claro."
+    },
+    {
+      "name": "Rigor",
+      "text": "Procesos de selección medibles, documentación en regla y cumplimiento en cada contratación."
+    },
+    {
+      "name": "Sin fronteras",
+      "text": "Buscamos talento en España y en el extranjero, y lo hacemos encajar donde se le necesita."
+    }
+  ],
+  "website": "https://leedtech.es",
+  "socials": {
+    "instagram": "",
+    "facebook": "",
+    "linkedin": "",
+    "x": "",
+    "youtube": "",
+    "tiktok": ""
+  },
+  "contact": {
+    "email": "info@leedtech.es",
+    "phone": "+34 697 987 900",
+    "address": "Carrer de Sant Pau, 115 · 08001 Barcelona",
+    "hours": ""
+  },
+  "colors": [
+    {
+      "name": "Negro Tinta",
+      "role": "primary",
+      "hex": "#111111",
+      "rgb": "17 17 17",
+      "cmyk": "0 0 0 95",
+      "pantone": "Neutral Black C",
+      "ratio": 60
+    },
+    {
+      "name": "Amarillo Señal",
+      "role": "accent",
+      "hex": "#FFC20E",
+      "rgb": "255 194 14",
+      "cmyk": "0 24 95 0",
+      "pantone": "≈ 123 C",
+      "ratio": 10
+    },
+    {
+      "name": "Blanco",
+      "role": "background",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "cmyk": "0 0 0 0",
+      "pantone": "",
+      "ratio": 25
+    },
+    {
+      "name": "Grafito",
+      "role": "surface",
+      "hex": "#2B2B2B",
+      "rgb": "43 43 43",
+      "cmyk": "0 0 0 83",
+      "pantone": "≈ Black 7 C"
+    },
+    {
+      "name": "Gris",
+      "role": "muted",
+      "hex": "#8A8A8A",
+      "rgb": "138 138 138",
+      "cmyk": "0 0 0 46",
+      "pantone": "≈ Cool Gray 8 C",
+      "ratio": 5
+    }
+  ],
+  "groupColors": [
+    {
+      "name": "Azul Grupo",
+      "hex": "#004C99",
+      "rgb": "0 76 153",
+      "cmyk": "100 50 0 40",
+      "pantone": "≈ 2945 C"
+    },
+    {
+      "name": "Lima Grupo",
+      "hex": "#DFDD3A",
+      "rgb": "223 221 58",
+      "cmyk": "0 1 74 13",
+      "pantone": "≈ 380 C"
+    }
+  ],
+  "fonts": {
+    "primary": {
+      "family": "Outfit",
+      "weights": [
+        "Medium",
+        "SemiBold",
+        "Bold"
+      ],
+      "source": "Google Fonts",
+      "use": "Titulares, rótulos, señalética y mensajes cortos."
+    },
+    "secondary": {
+      "family": "Poppins",
+      "weights": [
+        "Light",
+        "Regular",
+        "Medium"
+      ],
+      "source": "Google Fonts",
+      "use": "Textos, documentos, web, tagline y datos de contacto."
+    },
+    "scale": [
+      {
+        "role": "Titular",
+        "spec": "Outfit Bold · 64 / 110%"
+      },
+      {
+        "role": "Subtítulo",
+        "spec": "Outfit SemiBold · 32"
+      },
+      {
+        "role": "Texto",
+        "spec": "Poppins Regular · 16–18 / 150%"
+      },
+      {
+        "role": "Etiqueta",
+        "spec": "Poppins Medium · 14 · +4 tracking · MAYÚSCULAS"
+      }
+    ]
+  },
+  "voice": {
+    "headline": "Hablamos como un buen reclutador.",
+    "summary": "Cercano pero profesional. Directo, positivo y fácil de entender en español o inglés — también para personas que quizá están aprendiendo el idioma.",
+    "words": [
+      "Claro",
+      "Cercano",
+      "Seguro",
+      "Inclusivo"
+    ],
+    "do": [
+      "¿Buscas trabajo en construcción? Tenemos ofertas en Barcelona. Escríbenos y te ayudamos."
+    ],
+    "dont": [
+      "Se precisa la incorporación de perfiles cualificados para posiciones del sector constructivo."
+    ]
+  },
+  "logo": {
+    "parts": [
+      "wordmark",
+      "spark (destello)",
+      "tagline"
+    ],
+    "clearSpace": "X = height of the letter L in the wordmark, on all sides",
+    "minSize": {
+      "withTagline": {
+        "mm": 35,
+        "px": 140
+      },
+      "noTagline": {
+        "mm": 25,
+        "px": 100
+      },
+      "symbol": {
+        "mm": 6,
+        "px": 24
+      }
+    },
+    "preferredBackground": "dark"
+  },
+  "publishPermission": {
+    "status": "ask",
+    "by": "",
+    "date": ""
+  },
+  "source": {
+    "figmaFile": "8sv59Uji6UygbabaSX7iNo",
+    "figmaPage": "LeedTech · Brand Guidelines (node 13:97)",
+    "extracted": "2026-11-13"
+  },
+  "openQuestions": [
+    "Spark colour: Figma logo files use #FFFF00, the colour page says Amarillo Señal #FFC20E. Which is correct?",
+    "Tagline in logo files is #AAAAAA, not in the palette (closest: Gris #8A8A8A).",
+    "Legal company name for the licence line.",
+    "Social media accounts."
+  ],
+  "version": "1.0.0",
+  "i18n": {
+    "en": {
+      "category": "Recruitment",
+      "description": "LeedTech is the recruitment company of Grupo Lanak. We connect qualified professionals with employers across Spain: we find, assess and support talent all the way to their first day, wherever they come from.",
+      "sectors": [
+        "Construction",
+        "Logistics",
+        "Industry"
+      ],
+      "values": [
+        {
+          "name": "Close",
+          "text": "We call every candidate and client by their name. We answer fast and speak plainly."
+        },
+        {
+          "name": "Rigour",
+          "text": "Measurable selection processes, paperwork in order and compliance in every hire."
+        },
+        {
+          "name": "Borderless",
+          "text": "We look for talent in Spain and abroad, and place it where it is needed."
+        }
+      ],
+      "colorNames": {
+        "Negro Tinta": "Ink Black",
+        "Amarillo Señal": "Signal Yellow",
+        "Blanco": "White",
+        "Grafito": "Graphite",
+        "Gris": "Grey",
+        "Azul Grupo": "Group Blue",
+        "Lima Grupo": "Group Lime"
+      },
+      "fonts": {
+        "primaryUse": "Headlines, signs, wayfinding and short messages.",
+        "secondaryUse": "Body text, documents, web, tagline and contact details.",
+        "scaleRoles": [
+          "Headline",
+          "Subheading",
+          "Body",
+          "Label"
+        ],
+        "scaleSpecs": [
+          "Outfit Bold · 64 / 110%",
+          "Outfit SemiBold · 32",
+          "Poppins Regular · 16–18 / 150%",
+          "Poppins Medium · 14 · +4 tracking · CAPS"
+        ]
+      },
+      "voice": {
+        "headline": "We talk like a good recruiter.",
+        "summary": "Friendly but professional. Direct, positive and easy to understand in Spanish or English — including for people who may still be learning the language.",
+        "words": [
+          "Clear",
+          "Warm",
+          "Confident",
+          "Inclusive"
+        ],
+        "do": [
+          "Looking for construction work? We have jobs in Barcelona. Message us and we will help."
+        ],
+        "dont": [
+          "Applications are invited from suitably qualified candidates for positions within the construction sector."
+        ]
+      },
+      "endorsement": "A Grupo Lanak company"
+    }
+  }
+}
