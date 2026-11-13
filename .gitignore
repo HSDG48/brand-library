@@ -3,3 +3,5 @@ _check/
 .claude-flow/
 .claude/
 .env*
+brands/*/social/src/
+brands/*/stationery/src/

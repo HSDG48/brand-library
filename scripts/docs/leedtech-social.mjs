@@ -68,4 +68,4 @@ for (const lang of brand.languages) {
     }
   }
 }
-fs.rmSync(SRC_DIR, { recursive: true, force: true });
+if (!process.env.KEEP_SRC) fs.rmSync(SRC_DIR, { recursive: true, force: true }); // KEEP_SRC=1 keeps the HTML (Figma import)
