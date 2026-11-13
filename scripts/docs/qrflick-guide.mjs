@@ -125,8 +125,8 @@ function build(lang) {
 
   // 08 Colour
   const C = (name) => BASE.colors.find((c) => c.name === name);
-  const big = (name, flex, fg) => { const c = C(name); return `<div class="swatch-big" style="flex:${flex};background:${c.hex};color:${fg}"><b>${name}</b><span>${c.hex} · RGB ${c.rgb}</span><span>CMYK ${c.cmyk} · Pantone ${c.pantone}</span><span class="u">${esc(c.use)}</span></div>`; };
-  const chip = (name) => { const c = C(name); return `<div><div style="height:15mm;border-radius:2.5mm;background:${c.hex};border:.25mm solid ${K.Line}"></div><div class="cap">${name}<span>${c.hex}<br>${esc(c.use)}</span></div></div>`; };
+  const big = (name, flex, fg) => { const c = C(name); return `<div class="swatch-big" style="flex:${flex};background:${c.hex};color:${fg}"><b>${name}</b><span>${c.hex} · RGB ${c.rgb}</span><span>CMYK ${c.cmyk} · Pantone ${c.pantone}</span><span class="u">${esc(T.colourUse?.[name] ?? c.use)}</span></div>`; };
+  const chip = (name) => { const c = C(name); return `<div><div style="height:15mm;border-radius:2.5mm;background:${c.hex};border:.25mm solid ${K.Line}"></div><div class="cap">${name}<span>${c.hex}<br>${esc(T.colourUse?.[name] ?? c.use)}</span></div></div>`; };
   P.push(page(T.colour.k, `
   <h1>${T.colour.h1}</h1>
   <p class="lead">${T.colour.lead}</p>
