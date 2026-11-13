@@ -45,16 +45,22 @@ export function globe({ line = '#ffffff', orbit = '#FFC20E', cls = 'globe' } = {
 </svg>`;
 }
 
-export function fontFaces(relToAssets) {
+// Font files per brand, in assets/fonts: [family, file, weight].
+const FONT_SETS = {
+  leedtech: [
+    ['Outfit', 'Outfit-Variable.ttf', '100 900'],
+    ['Poppins', 'Poppins-Light.ttf', 300],
+    ['Poppins', 'Poppins-Regular.ttf', 400],
+    ['Poppins', 'Poppins-Medium.ttf', 500],
+    ['Poppins', 'Poppins-SemiBold.ttf', 600],
+  ],
+  qrflick: [['Archivo', 'Archivo-Variable.ttf', '100 900']],
+};
+
+export function fontFaces(relToAssets, set = 'leedtech') {
   const f = (family, file, weight, style = 'normal') =>
     `@font-face{font-family:'${family}';src:url('${relToAssets}/fonts/${file}') format('truetype');font-weight:${weight};font-style:${style};font-display:swap}`;
-  return [
-    f('Outfit', 'Outfit-Variable.ttf', '100 900'),
-    f('Poppins', 'Poppins-Light.ttf', 300),
-    f('Poppins', 'Poppins-Regular.ttf', 400),
-    f('Poppins', 'Poppins-Medium.ttf', 500),
-    f('Poppins', 'Poppins-SemiBold.ttf', 600),
-  ].join('\n');
+  return FONT_SETS[set].map(([family, file, weight]) => f(family, file, weight)).join('\n');
 }
 
 export function esc(s = '') {

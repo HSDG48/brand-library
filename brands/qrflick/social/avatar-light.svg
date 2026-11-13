@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<rect width="1024" height="1024" rx="0" fill="#F5F6F5"/><g transform="translate(235.52 235.52) scale(5.5296)"><path id="frame" d="M8 30V18Q8 8 18 8H32M68 8H82Q92 8 92 18V30M92 70V82Q92 92 82 92H68M32 92H18Q8 92 8 82V70" fill="none" stroke="#079A96" stroke-width="12" stroke-linecap="round"/>
+<rect id="module" x="33" y="50" width="21" height="21" rx="4" fill="#079A96"/>
+<path id="flick" d="M57 44L68 29M65 55L80 48" fill="none" stroke="#079A96" stroke-width="8.5" stroke-linecap="round"/></g>
+</svg>

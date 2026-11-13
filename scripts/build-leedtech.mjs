@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import opentype from 'opentype.js';
 import { loadLayers, pathsMarkup, piece, place, svgDoc, tight, toPng, r } from './lib/svg.mjs';
+import { contactSheet } from './lib/preview.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const BRAND = path.join(ROOT, 'brands/leedtech');
@@ -158,20 +159,6 @@ function bgFor(rel) {
   if (cw) return COLOURWAYS[cw].bg;
   return rel.endsWith('-white') ? K.ink : K.white;
 }
-const TILE_W = 700, TILE_H = 300, PAD = 60, COLS = 4, LABEL = 34;
-const tiles = written.map(({ rel, svg }, i) => {
-  const vb = svg.match(/viewBox="0 0 ([\d.]+) ([\d.]+)"/);
-  const [w, h] = [+vb[1], +vb[2]];
-  const s = Math.min((TILE_W - PAD * 2) / w, (TILE_H - LABEL - PAD * 2) / h);
-  const x = (i % COLS) * (TILE_W + 20), y = Math.floor(i / COLS) * (TILE_H + 20);
-  const inner = svg.replace(/^<svg[^>]*>|<\/svg>\s*$/g, '').replace(/<title>.*?<\/title>/, '');
-  return `<g transform="translate(${x} ${y})"><rect width="${TILE_W}" height="${TILE_H}" rx="16" fill="${bgFor(rel)}" stroke="#ddd"/>
-<g transform="translate(${r((TILE_W - w * s) / 2)} ${r((TILE_H - LABEL - h * s) / 2)}) scale(${r(s, 6)})">${inner}</g>
-<rect y="${TILE_H - LABEL}" width="${TILE_W}" height="${LABEL}" fill="#fff" fill-opacity="0.9"/>
-<text x="14" y="${TILE_H - 11}" font-family="Arial" font-size="18" fill="#333">${rel}</text></g>`;
-});
-const rows = Math.ceil(tiles.length / COLS);
-const sheet = svgDoc(tiles.join('\n'), COLS * (TILE_W + 20) - 20, rows * (TILE_H + 20) - 20, { bg: '#f3f3f3' });
-fs.writeFileSync(path.join(BRAND, 'preview-logos.png'), toPng(sheet, 2400));
+fs.writeFileSync(path.join(BRAND, 'preview-logos.png'), contactSheet(written, bgFor));
 
 console.log(`Wrote ${written.length} SVGs (+${written.length * PNG_WIDTHS.length} PNGs) and preview-logos.png`);
