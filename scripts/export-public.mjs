@@ -10,7 +10,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const TARGET = path.resolve(process.argv[2] || path.join(ROOT, '..', 'brand-library-public'));
 if (TARGET === ROOT || TARGET.startsWith(ROOT + path.sep)) throw new Error('Target must be outside the repo');
 
-const ALWAYS = ['.git/**', 'node_modules/**', '_check/**', '.claude-flow/**', '.claude/**', '**/.env*', 'private.txt'];
+const ALWAYS = ['.git/**', 'brands/*/*/src/**', 'node_modules/**', '_check/**', '.claude-flow/**', '.claude/**', '**/.env*', 'private.txt'];
 const toRegex = (glob) => new RegExp('^' + glob
   .replace(/[.+^${}()|[\]\\]/g, '\\$&')
   .replace(/\*\*\/?/g, '\u0000')
