@@ -1,0 +1,521 @@
+{
+  "name": "HS Design",
+  "slug": "hs-design",
+  "wordmark": [
+    "HS",
+    "Design"
+  ],
+  "nameRule": "",
+  "legalName": "HS Digital Solutions LTD",
+  "family": {
+    "parent": "hs-digital"
+  },
+  "endorsement": {
+    "es": "Parte de HS Digital",
+    "en": "Part of HS Digital"
+  },
+  "website": "https://hsdesign.es",
+  "domains": [
+    "hsdesign.es"
+  ],
+  "languages": [
+    "es",
+    "en"
+  ],
+  "socials": {
+    "instagram": "https://www.instagram.com/hsdigisolution",
+    "facebook": "https://www.facebook.com/hsdigisolution",
+    "linkedin": "https://www.linkedin.com/company/hsdigisolutions",
+    "x": "https://x.com/HSdigiSolutions"
+  },
+  "contact": {
+    "email": "hola@hsdigital.es",
+    "phone": "+34 666 25 36 43",
+    "offices": [
+      {
+        "city": "Madrid",
+        "address": "Calle de la Princesa, 28008 Madrid"
+      },
+      {
+        "city": "Bilbao",
+        "address": "C/ Barroeta Aldamar 4, 48001 Bilbao (Bizkaia)"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "Navy",
+      "role": "primary",
+      "hex": "#0B3768",
+      "rgb": "11 55 104",
+      "cmyk": "≈ 100 70 10 35",
+      "pantone": "≈ 294 C",
+      "ratio": 20,
+      "use": {
+        "es": "Mitad superior del símbolo, wordmark, titulares, botones principales, fondos oscuros.",
+        "en": "Top half of the mark, wordmark, headings, primary buttons, dark backgrounds."
+      }
+    },
+    {
+      "name": "Blue",
+      "role": "secondary",
+      "hex": "#1E88D2",
+      "rgb": "30 136 210",
+      "cmyk": "≈ 85 40 0 0",
+      "pantone": "≈ 2184 C",
+      "ratio": 15,
+      "use": {
+        "es": "Mitad inferior del símbolo, iconos, degradados, texto grande (≥ 24 px).",
+        "en": "Bottom half of the mark, icons, gradients, large text (≥ 24 px)."
+      }
+    },
+    {
+      "name": "Yellow",
+      "hex": "#FFC233",
+      "rgb": "255 194 51",
+      "cmyk": "≈ 0 25 85 0",
+      "pantone": "≈ 123 C",
+      "role": "accent",
+      "ratio": 5,
+      "use": {
+        "es": "una banda de rotulador bajo una palabra por titular, etiquetas de medida, puntos y pegatinas.",
+        "en": "a marker band under one word per heading, measurement labels, dots and stickers."
+      }
+    },
+    {
+      "name": "Yellow 700",
+      "hex": "#8A5A00",
+      "rgb": "138 90 0",
+      "cmyk": "≈ 20 50 100 30",
+      "pantone": "≈ 7563 C",
+      "role": "accent-text",
+      "use": {
+        "es": "Texto pequeño en el color del acento sobre blanco (≥ 4,5:1).",
+        "en": "Small accent-coloured text on white (≥ 4.5:1)."
+      }
+    },
+    {
+      "name": "Blue 700",
+      "role": "secondary-text",
+      "hex": "#1466A6",
+      "rgb": "20 102 166",
+      "cmyk": "≈ 90 55 5 10",
+      "pantone": "≈ 2154 C",
+      "use": {
+        "es": "Enlaces y texto azul pequeño (5,9:1 sobre blanco).",
+        "en": "Links and small blue text (5.9:1 on white)."
+      }
+    },
+    {
+      "name": "Sky",
+      "role": "tint",
+      "hex": "#E8F3FC",
+      "rgb": "232 243 252",
+      "cmyk": "≈ 8 2 0 0",
+      "pantone": "",
+      "use": {
+        "es": "Fondos de sección tintados.",
+        "en": "Tinted section backgrounds."
+      }
+    },
+    {
+      "name": "Mist",
+      "role": "background",
+      "hex": "#F6F9FC",
+      "rgb": "246 249 252",
+      "cmyk": "≈ 3 1 0 0",
+      "pantone": "",
+      "ratio": 60,
+      "use": {
+        "es": "Fondo alterno, con el blanco.",
+        "en": "Alternate background, with white."
+      }
+    },
+    {
+      "name": "Ink",
+      "role": "text",
+      "hex": "#0A1A2F",
+      "rgb": "10 26 47",
+      "cmyk": "≈ 85 70 45 75",
+      "pantone": "≈ 5395 C",
+      "use": {
+        "es": "Texto de lectura (17:1 sobre blanco).",
+        "en": "Body text (17:1 on white)."
+      }
+    },
+    {
+      "name": "Slate",
+      "role": "muted",
+      "hex": "#5A6B82",
+      "rgb": "90 107 130",
+      "cmyk": "≈ 65 45 30 10",
+      "pantone": "≈ 7545 C",
+      "use": {
+        "es": "Texto secundario, pies de foto.",
+        "en": "Secondary text, captions."
+      }
+    },
+    {
+      "name": "Line",
+      "role": "border",
+      "hex": "#DCE6F0",
+      "rgb": "220 230 240",
+      "cmyk": "≈ 12 5 2 0",
+      "pantone": "",
+      "use": {
+        "es": "Bordes y separadores.",
+        "en": "Borders and dividers."
+      }
+    }
+  ],
+  "fonts": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "weights": [
+        "500",
+        "700",
+        "800"
+      ],
+      "source": "Google Fonts (self-hosted, OFL)",
+      "fallback": "Manrope, system-ui, sans-serif"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "source": "Google Fonts (self-hosted, OFL)",
+      "fallback": "system-ui, Segoe UI, sans-serif"
+    }
+  },
+  "copy": {
+    "es": {
+      "eyebrow": "Agencia de diseño web para pymes",
+      "positioning": "El estudio de diseño web que explica cada decisión con palabras normales: qué ve primero tu cliente, por qué el botón va ahí y cómo la web te trae contactos.",
+      "promise": "Una web que se entiende a la primera.",
+      "promiseMark": "a la primera",
+      "taglines": [
+        "Una web que se entiende a la primera.",
+        "Diseño web profesional que se entiende a la primera.",
+        "Tu cliente decide en cinco segundos. Tu web tiene que ayudarle."
+      ],
+      "heroLead": "Diseñamos webs, rediseños y landing pages para pymes de toda España. Te explicamos cada decisión con palabras normales: qué ve primero tu cliente, por qué el botón va ahí y cómo la web te trae contactos.",
+      "problem": {
+        "title": "Tu cliente decide en cinco segundos. Tu web tiene que ayudarle.",
+        "points": [
+          "No se entiende a qué te dedicas",
+          "El botón de contacto no aparece",
+          "En el móvil se ve pequeño y lento"
+        ],
+        "answer": "Lo rediseñamos con un boceto que ves antes"
+      },
+      "personality": [
+        "Visual",
+        "Cálida",
+        "Clara",
+        "Honesta",
+        "Cuidadosa con el detalle"
+      ],
+      "not": [
+        "Jerga de agencia («experiencias digitales disruptivas»)",
+        "Pinta de plantilla",
+        "Portfolio de proyectos falsos",
+        "Premios o cifras inventadas"
+      ],
+      "tone": [
+        {
+          "principle": "Pensando en el visitante.",
+          "why": "Explicamos cada decisión: «lo primero que ve tu cliente», «el botón va aquí porque…»."
+        },
+        {
+          "principle": "Frases cortas, verbos primero.",
+          "why": "Bocetamos, Diseñamos, Probamos."
+        },
+        {
+          "principle": "Nada inventado.",
+          "why": "Ni resultados ni premios; las pantallas de ejemplo son nuestras y van marcadas «ejemplo ilustrativo»."
+        }
+      ],
+      "doDont": [
+        {
+          "do": "Te enseñamos el boceto antes de construir nada.",
+          "dont": "Creamos experiencias digitales únicas."
+        },
+        {
+          "do": "Precio cerrado, pago único. Sabes lo que pagas desde el principio.",
+          "dont": "Consúltenos sin compromiso."
+        },
+        {
+          "do": "Pide tu revisión de diseño gratis: 3 mejoras concretas en 48 h.",
+          "dont": "¡La mejor agencia de diseño de España!"
+        },
+        {
+          "do": "El botón va arriba porque es lo primero que busca tu cliente.",
+          "dont": "Diseño disruptivo centrado en el usuario."
+        }
+      ],
+      "services": [
+        {
+          "name": "Diseño web para pymes",
+          "text": "Diseñamos la web de tu pyme para que tu cliente entienda en cinco segundos qué haces, dónde y cómo contactarte."
+        },
+        {
+          "name": "Rediseño web",
+          "text": "Rediseñamos tu web para que se entienda y genere contactos, sin empezar de cero si no hace falta, con el antes y el después."
+        },
+        {
+          "name": "Landing pages",
+          "text": "Una página, un mensaje y un botón que se pulsa, para tus anuncios, campañas y servicios estrella."
+        },
+        {
+          "name": "Diseño de tienda online",
+          "text": "Categorías que se entienden, fichas que resuelven dudas y un carrito cómodo en el móvil, en WooCommerce o Shopify."
+        },
+        {
+          "name": "Diseño UX/UI",
+          "text": "Flujos, wireframes, prototipos en Figma y pruebas con usuarios reales."
+        },
+        {
+          "name": "Auditoría de diseño web",
+          "text": "Revisamos tu web como la ve tu cliente y te entregamos una lista de mejoras priorizada, con capturas."
+        }
+      ],
+      "audience": [
+        "Pymes de toda España que necesitan una web nueva",
+        "Empresas con una web que no convence (rediseño)",
+        "Negocios con campañas que necesitan landing pages",
+        "Tiendas online"
+      ],
+      "commitments": [
+        "1 precio cerrado antes de empezar",
+        "24 h para responderte, siempre",
+        "2 rondas de cambios en cada fase",
+        "48 px mínimo para cada botón en móvil"
+      ],
+      "description": "HS Design es el estudio de diseño web del grupo HS Digital. Diseñamos webs, rediseños y landing pages para pymes de toda España, con boceto previo, precio cerrado y cada decisión explicada.",
+      "boilerplate": "HS Design es el estudio de diseño web del grupo HS Digital para pymes de España. Diseñamos webs, rediseños, landing pages, tiendas online y pantallas UX/UI, y explicamos cada decisión con palabras normales. Ves el boceto antes de construir nada y el precio está cerrado desde el principio; HS Dev construye lo que diseñamos. Atendemos en Madrid y Bilbao, y en remoto.",
+      "pillars": [
+        {
+          "name": "Para quién",
+          "title": "Pymes que necesitan una web que funcione",
+          "text": "Negocios que estrenan web o cuya web actual no trae contactos."
+        },
+        {
+          "name": "El problema",
+          "title": "Tu cliente decide en cinco segundos",
+          "text": "No se entiende a qué te dedicas, el botón no aparece y en el móvil se ve pequeño."
+        },
+        {
+          "name": "La promesa",
+          "title": "Una web que se entiende a la primera",
+          "text": "Boceto primero, precio cerrado y cada decisión explicada."
+        }
+      ],
+      "wordsUse": [
+        "boceto",
+        "lo primero que ve tu cliente",
+        "precio cerrado",
+        "pago único",
+        "ejemplo ilustrativo",
+        "te explicamos",
+        "rediseño",
+        "a la primera"
+      ],
+      "wordsAvoid": [
+        "experiencias digitales",
+        "disruptivo",
+        "único",
+        "la mejor agencia",
+        "consúltenos",
+        "premios inventados"
+      ],
+      "socialLine": "Diseño web y UX/UI para pymes",
+      "accentUse": "Amarillo Boceto: una banda de rotulador bajo una palabra por titular, etiquetas de medida, puntos y pegatinas. Máximo 5 %. Texto sobre amarillo en Navy; texto amarillo pequeño en Yellow 700.",
+      "motifText": "Rotulador amarillo bajo una palabra clave sobre un lienzo tipo Figma: un wireframe que se rellena, el cursor que selecciona el botón con su etiqueta «24 px».",
+      "rules": [
+        "Nunca resultados, premios ni cifras de clientes inventadas.",
+        "Las pantallas de ejemplo son negocios ficticios propios (p. ej. «Horno Lúa»), marcados como ejemplo.",
+        "«Atendemos en Madrid y Bilbao», en remoto en el resto.",
+        "HS Dev construye lo que HS Design diseña."
+      ]
+    },
+    "en": {
+      "positioning": "The web design studio that explains every decision in plain words: what your customer sees first, why the button goes there, how the website brings enquiries.",
+      "promise": "A website that makes sense at first glance.",
+      "promiseMark": "at first glance",
+      "taglines": [
+        "A website that makes sense at first glance.",
+        "Professional web design that's clear at first glance.",
+        "Your customer decides in five seconds. Your website has to help."
+      ],
+      "heroLead": "We design websites, redesigns and landing pages for small businesses across Spain. We explain every decision in plain words: what your customer sees first, why the button goes there and how the site brings you enquiries.",
+      "problem": {
+        "title": "Your customer decides in five seconds. Your website has to help.",
+        "points": [
+          "It's not clear what you do",
+          "The contact button is nowhere to be seen",
+          "On mobile it looks small and slow"
+        ],
+        "answer": "We redesign it with a sketch you see first"
+      },
+      "personality": [
+        "Visual",
+        "Warm",
+        "Clear",
+        "Honest",
+        "Careful with detail"
+      ],
+      "not": [
+        "Agency jargon («disruptive digital experiences»)",
+        "Template look",
+        "Portfolio of fake projects",
+        "Invented awards or numbers"
+      ],
+      "tone": [
+        {
+          "principle": "Visitor first.",
+          "why": "Explain every decision: «what your customer sees first», «the button goes here because…»."
+        },
+        {
+          "principle": "Short sentences, verbs first.",
+          "why": "We sketch, We design, We test."
+        },
+        {
+          "principle": "Nothing invented.",
+          "why": "No made-up results or awards; example screens are our own and labelled «illustrative example»."
+        }
+      ],
+      "doDont": [
+        {
+          "do": "We show you the sketch before we build anything.",
+          "dont": "We create unique digital experiences."
+        },
+        {
+          "do": "Fixed price, one-off payment. You know what you'll pay from day one.",
+          "dont": "Consult us with no obligation."
+        },
+        {
+          "do": "Get your free design review: 3 concrete improvements in 48 h.",
+          "dont": "The best design agency in Spain!"
+        },
+        {
+          "do": "The button goes at the top because it's the first thing your customer looks for.",
+          "dont": "Disruptive user-centred design."
+        }
+      ],
+      "services": [
+        {
+          "name": "Web design for SMEs",
+          "text": "We design your business website so customers understand in five seconds what you do, where, and how to contact you."
+        },
+        {
+          "name": "Website redesign",
+          "text": "We redesign your site so it's clear and brings enquiries, without starting from scratch if we don't need to, with a before and after."
+        },
+        {
+          "name": "Landing pages",
+          "text": "One page, one message and one button people click, for your ads, campaigns and key services."
+        },
+        {
+          "name": "Online shop design",
+          "text": "Categories that make sense, product pages that answer questions and an easy mobile checkout, on WooCommerce or Shopify."
+        },
+        {
+          "name": "UX/UI design",
+          "text": "Flows, wireframes, Figma prototypes and testing with real users."
+        },
+        {
+          "name": "Web design audit",
+          "text": "We review your site the way your customer sees it and deliver a prioritised list of improvements, with screenshots."
+        }
+      ],
+      "audience": [
+        "SMEs across Spain that need a new website",
+        "Businesses whose current site doesn't convince (redesign)",
+        "Businesses running campaigns that need landing pages",
+        "Online shops"
+      ],
+      "commitments": [
+        "1 fixed price before we start",
+        "24 h to reply, always",
+        "2 rounds of changes per phase",
+        "48 px minimum for every mobile button"
+      ],
+      "description": "HS Design is the HS Digital group's web design studio. We design websites, redesigns and landing pages for small businesses across Spain, with a sketch first, a fixed price and every decision explained.",
+      "boilerplate": "HS Design is the web design studio of the HS Digital group for small businesses in Spain. We design websites, redesigns, landing pages, online shops and UX/UI screens, and explain every decision in plain words. You see the sketch before anything is built, the price is fixed from the start, and HS Dev builds what we design. We serve Madrid and Bilbao, and work remotely everywhere else.",
+      "pillars": [
+        {
+          "name": "Who it's for",
+          "title": "SMEs that need a website that works",
+          "text": "Businesses launching a site, or whose current site brings no enquiries."
+        },
+        {
+          "name": "The problem",
+          "title": "Your customer decides in five seconds",
+          "text": "It's unclear what you do, the button is missing and on mobile it looks small."
+        },
+        {
+          "name": "The promise",
+          "title": "A website that makes sense at first glance",
+          "text": "Sketch first, fixed price and every decision explained."
+        }
+      ],
+      "wordsUse": [
+        "sketch",
+        "what your customer sees first",
+        "fixed price",
+        "one-off payment",
+        "illustrative example",
+        "we explain"
+      ],
+      "wordsAvoid": [
+        "digital experiences",
+        "disruptive",
+        "unique",
+        "best agency",
+        "invented awards"
+      ],
+      "socialLine": "Web and UX/UI design for small businesses",
+      "accentUse": "Amarillo Boceto: a marker band under one word per heading, measurement labels, dots and stickers. 5 % at most. Text on yellow is Navy; small yellow text in Yellow 700.",
+      "motifText": "Yellow marker under one key word on a Figma-style canvas: a wireframe filling in, the cursor selecting the button with its \"24 px\" label.",
+      "rules": [
+        "Never invented results, awards or client numbers.",
+        "Example screens are our own fictional businesses (e.g. \"Horno Lúa\"), labelled as examples.",
+        "\"We serve Madrid and Bilbao\", remote everywhere else.",
+        "HS Dev builds what HS Design designs."
+      ]
+    }
+  },
+  "publishPermission": {
+    "status": "own-brand",
+    "by": "",
+    "date": ""
+  },
+  "source": {
+    "extracted": "2026-11-13",
+    "folders": [
+      "hsdesign/docs/plan/01-brand-guidelines.md",
+      "hsdesign/theme/hs-design/blocks/hero/block.json",
+      "hsdesign/theme/hs-design/blocks/statement/block.json",
+      "hsdesign/theme/hs-design/blocks/commitments/block.json",
+      "hsdesign/theme/hs-design/inc/core/content/servicios-1.json",
+      "hsdesign/theme/hs-design/inc/core/content/seo.json",
+      "hsdesign/theme/hs-design/inc/settings.php"
+    ]
+  },
+  "openQuestions": [
+    "CMYK and Pantone values are screen-to-print estimates: ask the printer for a colour proof.",
+    "Legal name: kit uses \"HS Digital Solutions LTD\" as confirmed by the owner (2026-11-13); the site settings note the UK Ltd was reverted. Check before printing legal documents.",
+    "Offices: the sites only say «Atendemos en Madrid y Bilbao»; the kit shows the two addresses as confirmed by the owner.",
+    "The site lockup SVGs (in source/) are not set in Bricolage Grotesque; the kit redraws every lockup in Bricolage. Update the sites to the kit logos.",
+    "Favicons are now accent tiles with the Navy mark; the plain two-tone mark is kept as icons/favicon-mark.svg."
+  ],
+  "version": "1.0.0",
+  "motif": {
+    "type": "marker",
+    "accentName": "Amarillo Boceto"
+  }
+}

@@ -55,11 +55,12 @@ const FONT_SETS = {
     ['Poppins', 'Poppins-SemiBold.ttf', 600],
   ],
   qrflick: [['Archivo', 'Archivo-Variable.ttf', '100 900']],
+  hs: [['Bricolage Grotesque', 'BricolageGrotesque-Variable.woff2', '200 800'], ['Manrope', 'Manrope-Variable.woff2', '200 800']],
 };
 
 export function fontFaces(relToAssets, set = 'leedtech') {
   const f = (family, file, weight, style = 'normal') =>
-    `@font-face{font-family:'${family}';src:url('${relToAssets}/fonts/${file}') format('truetype');font-weight:${weight};font-style:${style};font-display:swap}`;
+    `@font-face{font-family:'${family}';src:url('${relToAssets}/fonts/${file}') format('${file.endsWith('.woff2') ? 'woff2' : 'truetype'}');font-weight:${weight};font-style:${style};font-display:swap}`;
   return FONT_SETS[set].map(([family, file, weight]) => f(family, file, weight)).join('\n');
 }
 

@@ -56,6 +56,13 @@ Figma mirrors (view only, the scripts stay the master; re-import after a rebuild
 
 - **LeedTech**: [LeedTech brand kit](https://www.figma.com/design/DzLdrTwlIJPNAj1dYggPdb): logos, icons, guide ES/EN, profile, stationery, social
 
+## Brand families
+
+- **HS Digital** (`hs-digital`) is a parent brand with four sub-kits: `hs-marketing`, `hs-seo`, `hs-dev`, `hs-design`.
+  They share one mark, Bricolage Grotesque + Manrope and the Navy/Blue base; each sub-brand adds an accent colour,
+  a graphic device and an endorsed lockup ("Parte de HS Digital"). Build all five with
+  `node scripts/build-hs.mjs && node scripts/icons-hs.mjs`, then `node scripts/docs/hs-{social,stationery,profile,guide}.mjs`.
+
 ## Rules before a brand goes public
 
 - **Client permission.** These are the clients' trademarks. Get a written OK (an email is enough)

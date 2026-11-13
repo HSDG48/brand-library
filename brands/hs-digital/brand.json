@@ -1,0 +1,420 @@
+{
+  "name": "HS Digital",
+  "slug": "hs-digital",
+  "wordmark": [
+    "HS",
+    "Digital"
+  ],
+  "nameRule": "",
+  "legalName": "HS Digital Solutions LTD",
+  "family": {
+    "parent": null,
+    "members": [
+      "hs-marketing",
+      "hs-seo",
+      "hs-dev",
+      "hs-design"
+    ]
+  },
+  "website": "https://hsdigital.es",
+  "domains": [
+    "hsdigital.es",
+    "hsdigisolutions.com"
+  ],
+  "languages": [
+    "es",
+    "en"
+  ],
+  "socials": {
+    "instagram": "https://www.instagram.com/hsdigisolution",
+    "facebook": "https://www.facebook.com/hsdigisolution",
+    "linkedin": "https://www.linkedin.com/company/hsdigisolutions",
+    "x": "https://x.com/HSdigiSolutions"
+  },
+  "contact": {
+    "email": "hola@hsdigital.es",
+    "phone": "+34 666 25 36 43",
+    "offices": [
+      {
+        "city": "Madrid",
+        "address": "Calle de la Princesa, 28008 Madrid"
+      },
+      {
+        "city": "Bilbao",
+        "address": "C/ Barroeta Aldamar 4, 48001 Bilbao (Bizkaia)"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "Navy",
+      "role": "primary",
+      "hex": "#0B3768",
+      "rgb": "11 55 104",
+      "cmyk": "≈ 100 70 10 35",
+      "pantone": "≈ 294 C",
+      "ratio": 20,
+      "use": {
+        "es": "Mitad superior del símbolo, wordmark, titulares, botones principales, fondos oscuros.",
+        "en": "Top half of the mark, wordmark, headings, primary buttons, dark backgrounds."
+      }
+    },
+    {
+      "name": "Blue",
+      "role": "secondary",
+      "hex": "#1E88D2",
+      "rgb": "30 136 210",
+      "cmyk": "≈ 85 40 0 0",
+      "pantone": "≈ 2184 C",
+      "ratio": 15,
+      "use": {
+        "es": "Mitad inferior del símbolo, iconos, degradados, texto grande (≥ 24 px).",
+        "en": "Bottom half of the mark, icons, gradients, large text (≥ 24 px)."
+      }
+    },
+    {
+      "name": "Blue 700",
+      "role": "secondary-text",
+      "hex": "#1466A6",
+      "rgb": "20 102 166",
+      "cmyk": "≈ 90 55 5 10",
+      "pantone": "≈ 2154 C",
+      "use": {
+        "es": "Enlaces y texto azul pequeño (5,9:1 sobre blanco).",
+        "en": "Links and small blue text (5.9:1 on white)."
+      }
+    },
+    {
+      "name": "Sky",
+      "role": "tint",
+      "hex": "#E8F3FC",
+      "rgb": "232 243 252",
+      "cmyk": "≈ 8 2 0 0",
+      "pantone": "",
+      "use": {
+        "es": "Fondos de sección tintados.",
+        "en": "Tinted section backgrounds."
+      }
+    },
+    {
+      "name": "Mist",
+      "role": "background",
+      "hex": "#F6F9FC",
+      "rgb": "246 249 252",
+      "cmyk": "≈ 3 1 0 0",
+      "pantone": "",
+      "ratio": 60,
+      "use": {
+        "es": "Fondo alterno, con el blanco.",
+        "en": "Alternate background, with white."
+      }
+    },
+    {
+      "name": "Ink",
+      "role": "text",
+      "hex": "#0A1A2F",
+      "rgb": "10 26 47",
+      "cmyk": "≈ 85 70 45 75",
+      "pantone": "≈ 5395 C",
+      "use": {
+        "es": "Texto de lectura (17:1 sobre blanco).",
+        "en": "Body text (17:1 on white)."
+      }
+    },
+    {
+      "name": "Slate",
+      "role": "muted",
+      "hex": "#5A6B82",
+      "rgb": "90 107 130",
+      "cmyk": "≈ 65 45 30 10",
+      "pantone": "≈ 7545 C",
+      "use": {
+        "es": "Texto secundario, pies de foto.",
+        "en": "Secondary text, captions."
+      }
+    },
+    {
+      "name": "Line",
+      "role": "border",
+      "hex": "#DCE6F0",
+      "rgb": "220 230 240",
+      "cmyk": "≈ 12 5 2 0",
+      "pantone": "",
+      "use": {
+        "es": "Bordes y separadores.",
+        "en": "Borders and dividers."
+      }
+    }
+  ],
+  "fonts": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "weights": [
+        "500",
+        "700",
+        "800"
+      ],
+      "source": "Google Fonts (self-hosted, OFL)",
+      "fallback": "Manrope, system-ui, sans-serif"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "source": "Google Fonts (self-hosted, OFL)",
+      "fallback": "system-ui, Segoe UI, sans-serif"
+    }
+  },
+  "copy": {
+    "es": {
+      "positioning": "El grupo digital que reúne marketing, SEO, diseño y desarrollo web para pymes, con una sola persona de contacto.",
+      "promise": "Un grupo, cinco especialidades.",
+      "promiseMark": "cinco especialidades",
+      "taglines": [
+        "Un grupo, cinco especialidades.",
+        "Un solo interlocutor para todo.",
+        "Lo resolvemos dentro de casa."
+      ],
+      "personality": [
+        "Cercano",
+        "Claro",
+        "Honesto",
+        "Especialista"
+      ],
+      "not": [
+        "Hype de gurú",
+        "Resultados inventados",
+        "Jerga de agencia"
+      ],
+      "description": "HS Digital es el grupo de HS Marketing, HS SEO, HS Design y HS Dev. Cuando tu proyecto necesita más de una especialidad, lo resolvemos dentro de casa con una sola persona de contacto.",
+      "boilerplate": "HS Digital es un grupo de agencias digitales para pymes de España que atiende en Madrid y Bilbao, y en remoto. Reúne HS Marketing (redes sociales y anuncios), HS SEO (posicionamiento en Google), HS Design (diseño web) y HS Dev (desarrollo y mantenimiento web). Cada especialidad tiene su equipo y sus estándares; el cliente tiene un solo interlocutor. Sin permanencia y sin resultados que no podamos demostrar.",
+      "pillars": [
+        {
+          "name": "Para quién",
+          "title": "Pymes y negocios locales",
+          "text": "Empresas de Madrid, Bilbao y el resto de España que quieren crecer online sin coordinar cinco proveedores."
+        },
+        {
+          "name": "El problema",
+          "title": "Demasiados proveedores",
+          "text": "Uno lleva las redes, otro la web, otro el SEO, y nadie habla con nadie."
+        },
+        {
+          "name": "La promesa",
+          "title": "Un grupo, un interlocutor",
+          "text": "Especialistas en cada área, mismos estándares y una sola persona de contacto."
+        }
+      ],
+      "socialLine": "Marketing, SEO, diseño y desarrollo web para pymes",
+      "accentUse": "Sin acento propio: el grupo usa Navy y Blue. Los cuatro acentos solo aparecen juntos para presentar la familia.",
+      "motifText": "Las dos mitades del símbolo como formas grandes (máscaras, esquinas, fondos) y «el corte»: la línea blanca que atraviesa la H.",
+      "rules": [
+        "Una web propietaria por búsqueda: hsdigital.es lleva marketing digital, Google Ads, branding y la marca HS Digital.",
+        "La línea «Parte de HS Digital» se escribe igual en todas las webs hermanas.",
+        "Bloque de grupo en el pie: HS Digital, HS Marketing, HS SEO, HS Dev, HS Design.",
+        "Nunca resultados, valoraciones ni cifras de clientes inventadas."
+      ],
+      "groupBenefits": [
+        "Un solo interlocutor para todo",
+        "Sin duplicar costes ni proveedores",
+        "Especialistas en cada área"
+      ],
+      "subBrands": {
+        "hs-marketing": "Redes sociales, contenido, anuncios y Google Maps para negocios locales.",
+        "hs-seo": "Posicionamiento en Google (y en IA) para pymes, sin humo.",
+        "hs-design": "Diseño web y UX/UI que se entiende a la primera.",
+        "hs-dev": "Desarrollo web, tiendas WooCommerce y mantenimiento WordPress."
+      },
+      "tone": [
+        {
+          "principle": "Cercano y claro.",
+          "why": "Tú, frases cortas y palabras normales: el dueño de un negocio tiene que entenderlo a la primera."
+        },
+        {
+          "principle": "Honesto.",
+          "why": "Nunca cifras, valoraciones ni resultados inventados. Si algo tarda meses, lo decimos."
+        },
+        {
+          "principle": "Especialista.",
+          "why": "Cada área la lleva quien sabe de ella; el grupo lo coordina y da la cara."
+        }
+      ],
+      "doDont": [
+        {
+          "do": "Un solo interlocutor para tu web, tus redes y tu SEO.",
+          "dont": "Soluciones 360º de transformación digital."
+        },
+        {
+          "do": "Cada mes te contamos qué hemos hecho y qué ha cambiado.",
+          "dont": "Resultados garantizados en 30 días."
+        },
+        {
+          "do": "Sin permanencia: te quedas porque funciona.",
+          "dont": "Contrato mínimo de 12 meses."
+        },
+        {
+          "do": "Lo resolvemos dentro de casa.",
+          "dont": "Sinergias entre nuestras unidades de negocio."
+        }
+      ],
+      "wordsUse": [
+        "pymes",
+        "negocios locales",
+        "un solo interlocutor",
+        "especialistas",
+        "sin permanencia",
+        "Madrid y Bilbao",
+        "en remoto"
+      ],
+      "wordsAvoid": [
+        "360º",
+        "transformación digital",
+        "sinergias",
+        "growth hacking",
+        "resultados garantizados",
+        "gurú"
+      ]
+    },
+    "en": {
+      "positioning": "The digital group that brings marketing, SEO, web design and development together for small businesses, with a single point of contact.",
+      "promise": "One group, five specialities.",
+      "promiseMark": "five specialities",
+      "taglines": [
+        "One group, five specialities.",
+        "One point of contact for everything.",
+        "We solve it in-house."
+      ],
+      "personality": [
+        "Close",
+        "Clear",
+        "Honest",
+        "Specialist"
+      ],
+      "not": [
+        "Guru hype",
+        "Invented results",
+        "Agency jargon"
+      ],
+      "description": "HS Digital is the group behind HS Marketing, HS SEO, HS Design and HS Dev. When your project needs more than one speciality, we solve it in-house with a single point of contact.",
+      "boilerplate": "HS Digital is a group of digital agencies for small businesses in Spain, serving clients in Madrid, Bilbao and remotely. It brings together HS Marketing (social media and ads), HS SEO (search rankings), HS Design (web design) and HS Dev (web development and maintenance). Each speciality has its own team and standards; the client has one point of contact. No lock-in contracts and no results we can't prove.",
+      "pillars": [
+        {
+          "name": "Who it's for",
+          "title": "Small and local businesses",
+          "text": "Companies in Madrid, Bilbao and across Spain that want to grow online without juggling five suppliers."
+        },
+        {
+          "name": "The problem",
+          "title": "Too many suppliers",
+          "text": "One does social, another the website, another SEO, and nobody talks to anybody."
+        },
+        {
+          "name": "The promise",
+          "title": "One group, one contact",
+          "text": "Specialists in every area, the same standards and one point of contact."
+        }
+      ],
+      "socialLine": "Marketing, SEO, web design and development for small businesses",
+      "accentUse": "No accent of its own: the group uses Navy and Blue. The four accents only appear together to present the family.",
+      "motifText": "The two halves of the mark as large shapes (masks, corners, backgrounds) and \"the cut\": the white line through the H.",
+      "rules": [
+        "One owner site per search: hsdigital.es owns digital marketing, Google Ads, branding and the HS Digital brand.",
+        "The line \"Part of HS Digital\" is worded the same on every sister site.",
+        "Group block in the footer: HS Digital, HS Marketing, HS SEO, HS Dev, HS Design.",
+        "Never invented results, ratings or client numbers."
+      ],
+      "groupBenefits": [
+        "One point of contact for everything",
+        "No duplicated costs or suppliers",
+        "Specialists in every area"
+      ],
+      "subBrands": {
+        "hs-marketing": "Social media, content, ads and Google Maps for local businesses.",
+        "hs-seo": "Ranking on Google (and in AI answers) for small businesses, without the hype.",
+        "hs-design": "Web and UX/UI design that makes sense at first glance.",
+        "hs-dev": "Web development, WooCommerce shops and WordPress maintenance."
+      },
+      "tone": [
+        {
+          "principle": "Close and clear.",
+          "why": "Informal you, short sentences and plain words: a business owner must get it first time."
+        },
+        {
+          "principle": "Honest.",
+          "why": "Never invented figures, ratings or results. If something takes months, we say so."
+        },
+        {
+          "principle": "Specialist.",
+          "why": "Each area is run by people who know it; the group coordinates and is accountable."
+        }
+      ],
+      "doDont": [
+        {
+          "do": "One point of contact for your website, social media and SEO.",
+          "dont": "360º digital transformation solutions."
+        },
+        {
+          "do": "Every month we tell you what we did and what changed.",
+          "dont": "Guaranteed results in 30 days."
+        },
+        {
+          "do": "No lock-in: you stay because it works.",
+          "dont": "12-month minimum contract."
+        },
+        {
+          "do": "We solve it in-house.",
+          "dont": "Synergies across our business units."
+        }
+      ],
+      "wordsUse": [
+        "small businesses",
+        "local businesses",
+        "one point of contact",
+        "specialists",
+        "no lock-in",
+        "Madrid and Bilbao",
+        "remote"
+      ],
+      "wordsAvoid": [
+        "360º",
+        "digital transformation",
+        "synergies",
+        "growth hacking",
+        "guaranteed results",
+        "guru"
+      ]
+    }
+  },
+  "publishPermission": {
+    "status": "own-brand",
+    "by": "",
+    "date": ""
+  },
+  "source": {
+    "extracted": "2026-11-13",
+    "folders": [
+      "Desktop/hsmarketing/docs/seo/off-page.md",
+      "Desktop/hsmarketing/docs/HANDOFF.md",
+      "hsdev/docs/plan/hsdev-mega-prompt.md",
+      "*/theme/*/blocks/group-orbit/block.json",
+      "hsseo/theme/hs-seo/inc/settings.php",
+      "OneDrive/Documents/Work/HS Digital/HS_Digital_Solution_Business_Plan.pptx",
+      "OneDrive/Documents/Work/HS Digital/Digital_Agency_Business_Plan_ES.pptx"
+    ]
+  },
+  "openQuestions": [
+    "CMYK and Pantone values are screen-to-print estimates: ask the printer for a colour proof.",
+    "Legal name: kit uses \"HS Digital Solutions LTD\" as confirmed by the owner (2026-11-13); the site settings note the UK Ltd was reverted. Check before printing legal documents.",
+    "Offices: the sites only say «Atendemos en Madrid y Bilbao»; the kit shows the two addresses as confirmed by the owner.",
+    "The site lockup SVGs (in source/) are not set in Bricolage Grotesque; the kit redraws every lockup in Bricolage. Update the sites to the kit logos.",
+    "Tone, do/don't and word lists were written for this kit (the group site has none yet): review them."
+  ],
+  "version": "1.0.0",
+  "motif": {
+    "type": "plain"
+  }
+}

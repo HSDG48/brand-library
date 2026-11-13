@@ -1,0 +1,524 @@
+{
+  "name": "HS SEO",
+  "slug": "hs-seo",
+  "wordmark": [
+    "HS",
+    "SEO"
+  ],
+  "nameRule": "",
+  "legalName": "HS Digital Solutions LTD",
+  "family": {
+    "parent": "hs-digital"
+  },
+  "endorsement": {
+    "es": "Parte de HS Digital",
+    "en": "Part of HS Digital"
+  },
+  "website": "https://hsseo.es",
+  "domains": [
+    "hsseo.es"
+  ],
+  "languages": [
+    "es",
+    "en"
+  ],
+  "socials": {
+    "instagram": "https://www.instagram.com/hsdigisolution",
+    "facebook": "https://www.facebook.com/hsdigisolution",
+    "linkedin": "https://www.linkedin.com/company/hsdigisolutions",
+    "x": "https://x.com/HSdigiSolutions"
+  },
+  "contact": {
+    "email": "hola@hsdigital.es",
+    "phone": "+34 666 25 36 43",
+    "offices": [
+      {
+        "city": "Madrid",
+        "address": "Calle de la Princesa, 28008 Madrid"
+      },
+      {
+        "city": "Bilbao",
+        "address": "C/ Barroeta Aldamar 4, 48001 Bilbao (Bizkaia)"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "Navy",
+      "role": "primary",
+      "hex": "#0B3768",
+      "rgb": "11 55 104",
+      "cmyk": "≈ 100 70 10 35",
+      "pantone": "≈ 294 C",
+      "ratio": 20,
+      "use": {
+        "es": "Mitad superior del símbolo, wordmark, titulares, botones principales, fondos oscuros.",
+        "en": "Top half of the mark, wordmark, headings, primary buttons, dark backgrounds."
+      }
+    },
+    {
+      "name": "Blue",
+      "role": "secondary",
+      "hex": "#1E88D2",
+      "rgb": "30 136 210",
+      "cmyk": "≈ 85 40 0 0",
+      "pantone": "≈ 2184 C",
+      "ratio": 15,
+      "use": {
+        "es": "Mitad inferior del símbolo, iconos, degradados, texto grande (≥ 24 px).",
+        "en": "Bottom half of the mark, icons, gradients, large text (≥ 24 px)."
+      }
+    },
+    {
+      "name": "Green",
+      "hex": "#00C389",
+      "rgb": "0 195 137",
+      "cmyk": "≈ 75 0 60 0",
+      "pantone": "≈ 3395 C",
+      "role": "accent",
+      "ratio": 5,
+      "use": {
+        "es": "insignias de posición, puntos, checks y finales de gráfico.",
+        "en": "position badges, dots, checks and chart end points."
+      }
+    },
+    {
+      "name": "Green 700",
+      "hex": "#047857",
+      "rgb": "4 120 87",
+      "cmyk": "≈ 90 25 75 15",
+      "pantone": "≈ 340 C",
+      "role": "accent-text",
+      "use": {
+        "es": "Texto pequeño en el color del acento sobre blanco (≥ 4,5:1).",
+        "en": "Small accent-coloured text on white (≥ 4.5:1)."
+      }
+    },
+    {
+      "name": "Blue 700",
+      "role": "secondary-text",
+      "hex": "#1466A6",
+      "rgb": "20 102 166",
+      "cmyk": "≈ 90 55 5 10",
+      "pantone": "≈ 2154 C",
+      "use": {
+        "es": "Enlaces y texto azul pequeño (5,9:1 sobre blanco).",
+        "en": "Links and small blue text (5.9:1 on white)."
+      }
+    },
+    {
+      "name": "Sky",
+      "role": "tint",
+      "hex": "#E8F3FC",
+      "rgb": "232 243 252",
+      "cmyk": "≈ 8 2 0 0",
+      "pantone": "",
+      "use": {
+        "es": "Fondos de sección tintados.",
+        "en": "Tinted section backgrounds."
+      }
+    },
+    {
+      "name": "Mist",
+      "role": "background",
+      "hex": "#F6F9FC",
+      "rgb": "246 249 252",
+      "cmyk": "≈ 3 1 0 0",
+      "pantone": "",
+      "ratio": 60,
+      "use": {
+        "es": "Fondo alterno, con el blanco.",
+        "en": "Alternate background, with white."
+      }
+    },
+    {
+      "name": "Ink",
+      "role": "text",
+      "hex": "#0A1A2F",
+      "rgb": "10 26 47",
+      "cmyk": "≈ 85 70 45 75",
+      "pantone": "≈ 5395 C",
+      "use": {
+        "es": "Texto de lectura (17:1 sobre blanco).",
+        "en": "Body text (17:1 on white)."
+      }
+    },
+    {
+      "name": "Slate",
+      "role": "muted",
+      "hex": "#5A6B82",
+      "rgb": "90 107 130",
+      "cmyk": "≈ 65 45 30 10",
+      "pantone": "≈ 7545 C",
+      "use": {
+        "es": "Texto secundario, pies de foto.",
+        "en": "Secondary text, captions."
+      }
+    },
+    {
+      "name": "Line",
+      "role": "border",
+      "hex": "#DCE6F0",
+      "rgb": "220 230 240",
+      "cmyk": "≈ 12 5 2 0",
+      "pantone": "",
+      "use": {
+        "es": "Bordes y separadores.",
+        "en": "Borders and dividers."
+      }
+    }
+  ],
+  "fonts": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "weights": [
+        "500",
+        "700",
+        "800"
+      ],
+      "source": "Google Fonts (self-hosted, OFL)",
+      "fallback": "Manrope, system-ui, sans-serif"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        "400",
+        "500",
+        "600",
+        "700"
+      ],
+      "source": "Google Fonts (self-hosted, OFL)",
+      "fallback": "system-ui, Segoe UI, sans-serif"
+    }
+  },
+  "copy": {
+    "es": {
+      "eyebrow": "Agencia de SEO para pymes",
+      "positioning": "El socio SEO honesto y claro para pequeñas empresas: explicamos lo que hacemos, lo medimos y nunca vendemos posiciones.",
+      "promise": "Que te encuentren en Google, sin humo.",
+      "promiseMark": "en Google",
+      "taglines": [
+        "Que te encuentren en Google, sin humo.",
+        "Tener web no es salir en Google. Que te encuentren, sí.",
+        "El SEO tarda meses. Te enseñamos cada mes qué ha cambiado."
+      ],
+      "heroLead": "Posicionamiento SEO para pequeñas empresas de España y Latinoamérica: auditoría, SEO local, técnico, contenidos y visibilidad en ChatGPT y Google IA. Te explicamos cada paso con palabras normales y no te prometemos puestos que nadie puede garantizar.",
+      "problem": {
+        "title": "Tener web no es salir en Google. Que te encuentren, sí.",
+        "points": [
+          "Tu web no aparece cuando te buscan",
+          "Visitas que no se convierten en llamadas",
+          "Nadie te explica qué se ha hecho"
+        ],
+        "answer": "Lo ordenamos paso a paso"
+      },
+      "personality": [
+        "Tranquila",
+        "Técnica pero clara",
+        "Cercana",
+        "Honesta",
+        "Metódica"
+      ],
+      "not": [
+        "Gurú / hype («¡primero en Google en 30 días!»)",
+        "Muros de jerga",
+        "Posiciones garantizadas",
+        "Barata o con pinta de plantilla"
+      ],
+      "tone": [
+        {
+          "principle": "SEO en palabras normales.",
+          "why": "Como mucho un término técnico por frase, explicado la primera vez («indexar = que Google guarde tu página»)."
+        },
+        {
+          "principle": "Frases cortas, verbos primero.",
+          "why": "Revisamos, Corregimos, Medimos."
+        },
+        {
+          "principle": "Nunca prometer posiciones.",
+          "why": "Ni rankings garantizados ni cifras de tráfico; los ejemplos van marcados «ejemplo ilustrativo»."
+        }
+      ],
+      "doDont": [
+        {
+          "do": "Te decimos qué falla en tu web y en qué orden arreglarlo.",
+          "dont": "Estrategias SEO 360º de alto rendimiento."
+        },
+        {
+          "do": "El SEO tarda meses. Te enseñamos cada mes qué ha cambiado.",
+          "dont": "Resultados garantizados en 30 días."
+        },
+        {
+          "do": "Pide tu auditoría SEO gratis.",
+          "dont": "Contáctenos para más información."
+        },
+        {
+          "do": "Ejemplo ilustrativo: tu web sube de la #9 a la #1.",
+          "dont": "Te ponemos el #1 en Google."
+        }
+      ],
+      "services": [
+        {
+          "name": "Posicionamiento SEO",
+          "text": "Revisamos tu web, corregimos lo técnico y creamos el contenido que busca tu cliente; cada mes te enseñamos qué ha cambiado."
+        },
+        {
+          "name": "SEO local",
+          "text": "Hacemos que tu web aparezca cuando buscan tu servicio en tu ciudad o en tu barrio."
+        },
+        {
+          "name": "SEO técnico",
+          "text": "Indexación, rastreo, velocidad, versión móvil y datos estructurados: arreglamos lo que impide que Google lea bien tu web."
+        },
+        {
+          "name": "Auditoría SEO",
+          "text": "Revisamos tu web a mano y te entregamos un informe claro con las tareas ordenadas por impacto."
+        },
+        {
+          "name": "Posicionamiento en IA (GEO)",
+          "text": "Medimos si ChatGPT, Gemini o Google IA te mencionan y trabajamos tu web para que te citen."
+        },
+        {
+          "name": "Link building",
+          "text": "Menciones y enlaces de webs que tienen sentido para tu negocio, sin granjas ni paquetes de mil enlaces."
+        }
+      ],
+      "audience": [
+        "Pymes y negocios locales de Madrid, Bilbao y toda España",
+        "Tiendas online",
+        "Agencias de diseño y marketing (marca blanca)",
+        "Empresas que venden en otros países (Latinoamérica en fase 2)"
+      ],
+      "commitments": [
+        "0 meses de permanencia",
+        "24 h para responderte (días laborables)",
+        "1 informe claro cada mes"
+      ],
+      "description": "HS SEO es la agencia de posicionamiento en Google del grupo HS Digital, para pymes y negocios locales en Madrid, Bilbao y toda España. SEO técnico, local y de contenidos, con informes claros y sin permanencia.",
+      "boilerplate": "HS SEO es la agencia de SEO del grupo HS Digital para pequeñas empresas de España. Hacemos auditorías, SEO local, técnico y de contenidos y trabajamos la visibilidad en ChatGPT y Google IA. Explicamos cada paso con palabras normales, lo medimos cada mes y no prometemos puestos que nadie puede garantizar. Atendemos en Madrid y Bilbao, y en remoto.",
+      "pillars": [
+        {
+          "name": "Para quién",
+          "title": "Pymes que quieren salir en Google",
+          "text": "Negocios locales, tiendas online y empresas que necesitan que les encuentren."
+        },
+        {
+          "name": "El problema",
+          "title": "Tener web no es salir en Google",
+          "text": "La web no aparece, las visitas no llaman y nadie te explica qué se ha hecho."
+        },
+        {
+          "name": "La promesa",
+          "title": "Que te encuentren en Google, sin humo",
+          "text": "Te decimos qué falla, lo arreglamos en orden y cada mes te enseñamos qué ha cambiado."
+        }
+      ],
+      "wordsUse": [
+        "posicionamiento",
+        "auditoría",
+        "te explicamos",
+        "en qué orden",
+        "cada mes",
+        "ejemplo ilustrativo",
+        "sin permanencia",
+        "con datos",
+        "sin humo"
+      ],
+      "wordsAvoid": [
+        "garantizado",
+        "primero en Google",
+        "en 30 días",
+        "360º",
+        "alto rendimiento",
+        "jerga sin explicar",
+        "contáctenos"
+      ],
+      "socialLine": "Posicionamiento en Google y en IA para pymes",
+      "accentUse": "Verde Ranking: insignias de posición, puntos, checks y finales de gráfico. Máximo 5 %, siempre plano. Verde = progreso, nunca errores. Texto pequeño en Green 700.",
+      "motifText": "Piezas de búsqueda: una barra que escribe la consulta, resultados tipo Google y «nuestra» fila que sube de #9 a #1 con insignia verde. Siempre «ejemplo ilustrativo».",
+      "rules": [
+        "Nunca prometer posiciones, rankings garantizados ni cifras de tráfico.",
+        "Los rankings de ejemplo llevan «ejemplo ilustrativo» y dominios ficticios.",
+        "Presencia en Madrid y Bilbao, en remoto en el resto.",
+        "Auditoría gratis = revisión manual por una persona, por email en 48 h laborables."
+      ]
+    },
+    "en": {
+      "positioning": "The honest, plain-spoken SEO partner for small businesses: we explain what we do, measure it and never sell positions.",
+      "promise": "Get found on Google, without the hype.",
+      "promiseMark": "on Google",
+      "taglines": [
+        "Get found on Google, without the hype.",
+        "Having a website isn't being on Google. Being found is.",
+        "SEO takes months. We show you what's changed every month."
+      ],
+      "heroLead": "SEO for small businesses in Spain and Latin America: audits, local, technical and content SEO, plus visibility in ChatGPT and Google AI. We explain every step in plain words and never promise positions nobody can guarantee.",
+      "problem": {
+        "title": "Having a website isn't being on Google. Being found is.",
+        "points": [
+          "Your site doesn't show up when people search for you",
+          "Visits that never turn into calls",
+          "Nobody explains what's been done"
+        ],
+        "answer": "We sort it out step by step"
+      },
+      "personality": [
+        "Calm",
+        "Technical but clear",
+        "Close",
+        "Honest",
+        "Methodical"
+      ],
+      "not": [
+        "Guru/hype («#1 on Google in 30 days!»)",
+        "Jargon walls",
+        "Guaranteed rankings",
+        "Cheap/template-looking"
+      ],
+      "tone": [
+        {
+          "principle": "SEO in plain words.",
+          "why": "At most one technical term per sentence, explained the first time («indexing = Google saving your page»)."
+        },
+        {
+          "principle": "Short sentences, verbs first.",
+          "why": "We review, We fix, We measure."
+        },
+        {
+          "principle": "Never promise positions.",
+          "why": "No guaranteed rankings or traffic figures; examples are labelled «illustrative example»."
+        }
+      ],
+      "doDont": [
+        {
+          "do": "We tell you what's wrong with your site and in what order to fix it.",
+          "dont": "High-performance 360º SEO strategies."
+        },
+        {
+          "do": "SEO takes months. Every month we show you what's changed.",
+          "dont": "Guaranteed results in 30 days."
+        },
+        {
+          "do": "Ask for your free SEO audit.",
+          "dont": "Contact us for more information."
+        },
+        {
+          "do": "Illustrative example: your site climbs from #9 to #1.",
+          "dont": "We'll get you to #1 on Google."
+        }
+      ],
+      "services": [
+        {
+          "name": "SEO",
+          "text": "We review your site, fix the technical side and create the content your customers search for; every month we show you what changed."
+        },
+        {
+          "name": "Local SEO",
+          "text": "We get your site to show up when people search for your service in your city or neighbourhood."
+        },
+        {
+          "name": "Technical SEO",
+          "text": "Indexing, crawling, speed, mobile and structured data: we fix whatever stops Google reading your site properly."
+        },
+        {
+          "name": "SEO audit",
+          "text": "We review your site by hand and deliver a clear report with tasks ordered by impact."
+        },
+        {
+          "name": "AI search visibility (GEO)",
+          "text": "We check whether ChatGPT, Gemini or Google AI mention you and work on your site so they cite you."
+        },
+        {
+          "name": "Link building",
+          "text": "Mentions and links from sites that make sense for your business, with no link farms or thousand-link packs."
+        }
+      ],
+      "audience": [
+        "Small and local businesses in Madrid, Bilbao and across Spain",
+        "Online shops",
+        "Design and marketing agencies (white label)",
+        "Companies selling abroad (Latin America in phase 2)"
+      ],
+      "commitments": [
+        "0 months' lock-in",
+        "24 h to reply (working days)",
+        "1 clear report every month"
+      ],
+      "description": "HS SEO is the HS Digital group's search agency for small and local businesses in Madrid, Bilbao and across Spain. Technical, local and content SEO with clear reports and no lock-in.",
+      "boilerplate": "HS SEO is the SEO agency of the HS Digital group for small businesses in Spain. We run audits, local, technical and content SEO, and work on visibility in ChatGPT and Google AI. We explain every step in plain words, measure it every month and never promise positions nobody can guarantee. We serve Madrid and Bilbao, and work remotely everywhere else.",
+      "pillars": [
+        {
+          "name": "Who it's for",
+          "title": "SMEs that want to be on Google",
+          "text": "Local businesses, online shops and companies that need to be found."
+        },
+        {
+          "name": "The problem",
+          "title": "Having a website isn't being on Google",
+          "text": "The site doesn't show up, visitors don't call and nobody explains what's been done."
+        },
+        {
+          "name": "The promise",
+          "title": "Get found on Google, without the hype",
+          "text": "We tell you what's wrong, fix it in order and show you what changed every month."
+        }
+      ],
+      "wordsUse": [
+        "we explain",
+        "in order",
+        "every month",
+        "illustrative example",
+        "no lock-in",
+        "with data"
+      ],
+      "wordsAvoid": [
+        "guaranteed",
+        "#1 on Google",
+        "in 30 days",
+        "360º",
+        "high-performance",
+        "unexplained jargon"
+      ],
+      "socialLine": "Google and AI search rankings for small businesses",
+      "accentUse": "Verde Ranking: position badges, dots, checks and chart end points. 5 % at most, always flat. Green means progress, never errors. Small text in Green 700.",
+      "motifText": "Search pieces: a search bar typing a query, Google-style results and \"our\" row climbing from #9 to #1 with a green badge. Always \"illustrative example\".",
+      "rules": [
+        "Never promise positions, guaranteed rankings or traffic figures.",
+        "Example rankings carry \"illustrative example\" and fictional domains.",
+        "Presence in Madrid and Bilbao, remote everywhere else.",
+        "Free audit = a manual review by a person, by email within 48 working hours."
+      ]
+    }
+  },
+  "publishPermission": {
+    "status": "own-brand",
+    "by": "",
+    "date": ""
+  },
+  "source": {
+    "extracted": "2026-11-13",
+    "folders": [
+      "hsseo/docs/plan/01-brand-guidelines.md",
+      "hsseo/docs/plan/00-website-plan.md",
+      "hsseo/theme/hs-seo/blocks/hero/block.json",
+      "hsseo/theme/hs-seo/blocks/statement/block.json",
+      "hsseo/theme/hs-seo/blocks/commitments/block.json",
+      "hsseo/theme/hs-seo/inc/core/content/servicios-1.json",
+      "hsseo/theme/hs-seo/inc/core/content/servicios-2.json",
+      "hsseo/theme/hs-seo/inc/core/content/seo.json",
+      "hsseo/theme/hs-seo/inc/settings.php"
+    ]
+  },
+  "openQuestions": [
+    "CMYK and Pantone values are screen-to-print estimates: ask the printer for a colour proof.",
+    "Legal name: kit uses \"HS Digital Solutions LTD\" as confirmed by the owner (2026-11-13); the site settings note the UK Ltd was reverted. Check before printing legal documents.",
+    "Offices: the sites only say «Atendemos en Madrid y Bilbao»; the kit shows the two addresses as confirmed by the owner.",
+    "The site lockup SVGs (in source/) are not set in Bricolage Grotesque; the kit redraws every lockup in Bricolage. Update the sites to the kit logos.",
+    "Favicons are now accent tiles with the Navy mark; the plain two-tone mark is kept as icons/favicon-mark.svg."
+  ],
+  "version": "1.0.0",
+  "motif": {
+    "type": "rank",
+    "accentName": "Verde Ranking"
+  }
+}
