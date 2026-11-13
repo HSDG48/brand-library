@@ -58,10 +58,10 @@ function letterhead(lang) {
 @page{size:A4 portrait;margin:0}
 .page{width:210mm;height:297mm;position:relative;overflow:hidden}
 .foot{position:absolute;left:20mm;right:20mm;bottom:14mm;border-top:.25mm solid ${K.line};padding-top:3mm;display:flex;justify-content:space-between;font-size:7.5pt;color:${K.slate}}
-.foot b{color:${K.deep};font-weight:700}`) + `
+.foot b{color:${K.deep};font-weight:700}.foot .hs{display:flex;align-items:center;gap:2mm}.foot .hs img{height:5mm}`) + `
 <div class="page"><img src="${svg('qrflick-horizontal-colour-light')}" style="position:absolute;left:20mm;top:18mm;width:48mm">
 ${corner(K.teal, 'position:absolute;right:18mm;top:16mm;width:12mm;height:12mm')}
-<div class="foot"><span>${esc(C.email)} · <b>${WEB}</b></span><span>${esc(B.endorsement[lang])}</span></div></div></body></html>`;
+<div class="foot"><span>${esc(C.email)} · <b>${WEB}</b></span><span class="hs"><img src="../../${B.parent.logo}" alt="HS Digital">${esc(B.endorsement[lang])} · ${esc(B.parent.legalName)}</span></div></div></body></html>`;
 }
 
 // Email signature: table layout + inline styles only, so it survives Gmail and Outlook.

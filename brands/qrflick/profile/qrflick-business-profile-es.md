@@ -28,4 +28,4 @@ Cafés y restaurantes · Oficios · Autónomos · Pequeñas tiendas
 - Facebook: https://www.facebook.com/qrflick
 - Tiktok: https://www.tiktok.com/@qrflick
 
-Un producto de HS Digital (https://hsdigital.es).
+Un producto de HS Digital (HS Digital Solutions LTD, https://hsdigital.es).

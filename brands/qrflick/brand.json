@@ -6,7 +6,11 @@
   "legalName": "",
   "parent": {
     "name": "HS Digital",
-    "website": "https://hsdigital.es"
+    "legalName": "HS Digital Solutions LTD",
+    "website": "https://hsdigital.es",
+    "logo": "logo/parent/hs-digital-mark.png",
+    "logoRule": "Supplied as a PNG (507 × 492, transparent). Use it on white or light backgrounds only, next to the endorsement text, never larger than the QRflick logo. Ask HS Digital for a vector file before large print.",
+    "colors": { "navy": "#01366B", "blue": "#018BD3" }
   },
   "endorsement": {
     "es": "Un producto de HS Digital",
@@ -101,7 +105,7 @@
   "openQuestions": [
     "Snow #F2F3F3 (dark wordmark in the logo files) is not on the guide's colour page; added to the palette.",
     "CMYK and Pantone for every colour except Teal are estimates: check a printed proof.",
-    "Legal company name of HS Digital for the licence line.",
+    "Vector (SVG) version of the HS Digital logo: only a PNG was supplied.",
     "Client OK to publish the kit on the public repo."
   ],
   "version": "1.0.0",

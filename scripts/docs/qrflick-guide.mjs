@@ -233,7 +233,8 @@ function build(lang) {
     ${img('qrflick-stacked-colour-dark', 'QRflick', 'width:70mm')}
     <p style="font-size:16pt;font-weight:800;letter-spacing:-.02em;color:${K.Snow}">${esc(B.tagline)}</p>
     <p style="color:#9aa3a5">${WEB} · ${esc(CT.email)}<br>${socials.join(' · ')}</p>
-    <p class="label" style="color:${K.TealGlow}">${esc(BASE.endorsement[lang])} · ${BASE.parent.website.replace('https://', '')}</p>
+    <div style="display:flex;align-items:center;gap:4mm"><span style="background:#fff;border-radius:3mm;padding:2mm;display:flex"><img src="../${BASE.parent.logo}" alt="HS Digital" style="height:9mm"></span>
+      <p class="label" style="color:${K.TealGlow};text-align:left">${esc(BASE.endorsement[lang])} · ${BASE.parent.website.replace('https://', '')}<br><span style="color:#9aa3a5">${esc(BASE.parent.legalName)}</span></p></div>
   </div>`, { dark: true, plain: true }));
 
   if (n !== TOTAL) throw new Error(`expected ${TOTAL} pages, built ${n}`);

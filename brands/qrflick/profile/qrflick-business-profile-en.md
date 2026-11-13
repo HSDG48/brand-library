@@ -28,4 +28,4 @@ Cafés and restaurants · Trades · Freelancers · Small shops
 - Facebook: https://www.facebook.com/qrflick
 - Tiktok: https://www.tiktok.com/@qrflick
 
-A product of HS Digital (https://hsdigital.es).
+A product of HS Digital (HS Digital Solutions LTD, https://hsdigital.es).

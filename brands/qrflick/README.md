@@ -1,7 +1,7 @@
 # QRflick — brand kit
 
 Editable QR codes for cafés, trades, freelancers and small shops. *Imprime una vez. Cámbialo siempre.* / *Print once. Change forever.*
-A product of HS Digital ([hsdigital.es](https://hsdigital.es)). Website: [qrflick.com](https://qrflick.com).
+A product of HS Digital (HS Digital Solutions LTD, [hsdigital.es](https://hsdigital.es)). Website: [qrflick.com](https://qrflick.com).
 Preview of every logo: [preview-logos.png](preview-logos.png)
 
 Built from the original QRflick brand files (logo SVG/PNG and the 8-page guide v1.0), which are kept untouched in `source/` (team repo only).
@@ -27,7 +27,7 @@ All in `logo/svg/` (vector) and `logo/png/` (transparent, 512 / 1024 / 2048 / 40
 | `white` | Teal or photos |
 
 The mark: four corners of a scan frame, one data module and two flick strokes. Write the name **QRflick** (never "QR Flick", "Qrflick" or "QRFlick").
-The HS Digital endorsement is set as text ("Un producto de HS Digital" / "A product of HS Digital"). There is no HS Digital logo in this kit.
+Endorsement: "Un producto de HS Digital" / "A product of HS Digital". The HS Digital logo is in `logo/parent/hs-digital-mark.png`, as supplied (PNG only). Use it on white or light backgrounds, next to the endorsement text, never larger than the QRflick logo. It appears on the letterhead, the profile and the guide's back cover.
 
 ## Documents (Spanish + English)
 
@@ -73,8 +73,8 @@ node scripts/docs/qrflick-profile.mjs     # business profile
 
 Look at single pages: `node scripts/docs/check-pages.mjs brands/qrflick/guide/index.en.html _check 1,7`.
 
-**Open points:** CMYK and Pantone values are estimates (ask for a printed proof); Snow (#F2F3F3) was added from the guide's dark examples; HS Digital legal name; OK to publish.
+**Open points:** CMYK and Pantone values are estimates (ask for a printed proof); Snow (#F2F3F3) was added from the guide's dark examples; a vector (SVG) HS Digital logo is wanted.
 
-**Licence:** guide text and layouts are CC BY 4.0. The QRflick name and logo are trademarks of their owner.
+**Licence:** guide text and layouts are CC BY 4.0. The QRflick and HS Digital names and logos are trademarks of HS Digital Solutions LTD.
 You may use them to refer to QRflick; do not alter them or use them in a way that suggests endorsement.
 Archivo is under the SIL Open Font License (`assets/fonts/OFL-Archivo.txt`).

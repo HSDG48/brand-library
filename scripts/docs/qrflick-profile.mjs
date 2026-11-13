@@ -16,7 +16,7 @@ const TEXT = {
       ['Sirve en cualquier soporte', 'Cartas, mesas, furgonetas, tarjetas, flyers y escaparates.'],
       ['Mira quién escanea', 'Escaneos por día y por código, para saber qué pieza funciona.'],
       ['Tus códigos son tuyos', 'Plan gratis para siempre. Si dejas de pagar, tus QR siguen vivos.']],
-    parentText: 'QRflick lo hace HS Digital, un estudio digital en España.',
+    parentText: 'QRflick lo hace',
   },
   en: {
     title: 'QRflick · Business profile', kicker: 'Business profile', about: 'What QRflick is', features: 'What you can do', audience: 'Who it is for',
@@ -25,7 +25,7 @@ const TEXT = {
       ['Works on anything printed', 'Menus, tables, vans, business cards, flyers and shop windows.'],
       ['See who scans', 'Scans per day and per code, so you know which piece works.'],
       ['Your codes stay yours', 'Free plan forever. If you stop paying, your QR codes stay alive.']],
-    parentText: 'QRflick is made by HS Digital, a digital studio in Spain.',
+    parentText: 'QRflick is made by',
   },
 };
 
@@ -71,7 +71,8 @@ body,h1,h2{font-family:Archivo,'Helvetica Neue',Arial,sans-serif}h2{font-weight:
     <div class="side">
       <div><div class="label">${T.promise}</div>${B.pillars.slice(1).map((v) => `<h2 style="font-size:11pt;margin-top:3mm">${esc(v.title)}</h2><p class="small" style="color:inherit;opacity:.8">${esc(v.text)}</p>`).join('')}</div>
       <div><div class="label">${T.contact}</div><table style="margin-top:2mm">${contactRows.map(([k, v]) => `<tr><td>${k}</td><td>${esc(v)}</td></tr>`).join('')}</table></div>
-      <div style="margin-top:auto"><div class="label">${esc(BASE.endorsement[lang])}</div><p class="small" style="margin-top:2mm;color:inherit;opacity:.8">${T.parentText} ${strip(BASE.parent.website)}</p></div>
+      <div style="margin-top:auto;display:flex;gap:4mm;align-items:center"><img src="../${BASE.parent.logo}" alt="HS Digital" style="height:12mm;flex-shrink:0">
+        <div><div class="label">${esc(BASE.endorsement[lang])}</div><p class="small" style="margin-top:1.5mm;color:inherit;opacity:.8">${T.parentText} ${esc(BASE.parent.legalName)} · ${strip(BASE.parent.website)}</p></div></div>
     </div>
   </div>
   <div class="foot"><span>${strip(B.website)} · ${esc(C.email)}</span><span>${T.endorsedBy} ${esc(BASE.parent.name)}</span></div>
@@ -104,7 +105,7 @@ ${B.pillars.slice(1).map((v) => `- **${v.title}** ${v.text}`).join('\n')}
 - Email: ${C.email}
 ${Object.entries(B.socials).filter(([, v]) => v).map(([k, v]) => `- ${k[0].toUpperCase() + k.slice(1)}: ${v}`).join('\n')}
 
-${BASE.endorsement[lang]} (${BASE.parent.website}).
+${BASE.endorsement[lang]} (${BASE.parent.legalName}, ${BASE.parent.website}).
 `;
 }
 
