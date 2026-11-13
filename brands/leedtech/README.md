@@ -3,6 +3,9 @@
 Recruitment company of Grupo Lanak, Barcelona. *Talent Beyond Borders.*
 Preview of every logo: [preview-logos.png](preview-logos.png)
 
+Browse it in Figma: [LeedTech brand kit](https://www.figma.com/design/DzLdrTwlIJPNAj1dYggPdb) (logos, icons, guide ES/EN, profile, stationery, social).
+It is a view-only mirror: the scripts and files here are the master, so change things here and re-import, never edit in Figma.
+
 ## Logos
 
 All in `logo/svg/` (vector masters) and `logo/png/` (transparent, 512 / 1024 / 2048 / 4096 px wide).

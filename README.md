@@ -52,6 +52,10 @@ Then commit and push from `../brand-library-public`. Never edit the public copy 
   because it's hand-layout work the team edits per person. The designer shares the Figma link or `.fig`,
   we export the assets, file them under `stationery/` (blank template → public, filled-in → private repo).
 
+Figma mirrors (view only, the scripts stay the master; re-import after a rebuild):
+
+- **LeedTech**: [LeedTech brand kit](https://www.figma.com/design/DzLdrTwlIJPNAj1dYggPdb): logos, icons, guide ES/EN, profile, stationery, social
+
 ## Rules before a brand goes public
 
 - **Client permission.** These are the clients' trademarks. Get a written OK (an email is enough)
