@@ -80,25 +80,14 @@ No lo deformes · No cambies los colores · No lo gires · No añadas sombras ni
 No lo uses sin contraste · No separes el destello · No lo pongas sobre fondos recargados ·
 No uses solo el contorno.
 
-## 09 · Arquitectura del Grupo
-Cada empresa del Grupo tiene su propio logotipo y una versión adaptada a los colores del Grupo
-(Azul Grupo y Lima Grupo). LeedTech se integra con el mismo sistema.
-
-| Empresa | Actividad |
-|---|---|
-| Lanak | Empresa de trabajo temporal |
-| Akilan | Outsourcing |
-| Qualis | Calidad y servicios *(pendiente de confirmar)* |
-| LeedTech | Selección de personal |
-
-## 10 · LeedTech en el Grupo
+## 09 · LeedTech en el Grupo
 - **Logotipo propio · Negro + Amarillo** — en todo lo que comunica LeedTech directamente: oficina
   y rótulos, web, redes sociales, ofertas de empleo, tarjetas y documentos propios.
 - **Versión Grupo Lanak · Azul + Lima** — cuando LeedTech aparece junto a otras empresas del Grupo:
   web y presentaciones de Grupo Lanak, dosieres corporativos, ferias, firmas conjuntas y documentación del Grupo.
 - **Regla:** nunca mezcles los dos sistemas en una misma pieza (p. ej., destello amarillo con wordmark azul).
 
-## 11 · Respaldo del Grupo
+## 10 · Respaldo del Grupo
 La línea "Una empresa del Grupo Lanak" acompaña al logotipo para mostrar que forma parte del Grupo
 sin perder su identidad propia. Versiones: horizontal sobre oscuro, sobre claro y versión Grupo.
 - El respaldo nunca supera el 45% del ancho del logotipo.
@@ -106,7 +95,7 @@ sin perder su identidad propia. Versiones: horizontal sobre oscuro, sobre claro 
 - Texto en Poppins Medium, mayúsculas, espaciado amplio.
 - En catalán: "Una empresa del Grup Lanak".
 
-## 12 · Tono de voz
+## 11 · Tono de voz
 **Hablamos como un buen reclutador.** Cercano pero profesional. Directo, positivo y fácil de entender
 en español, catalán o inglés — y para personas que quizá están aprendiendo el idioma.
 - **Claro** — Frases cortas. Una idea por frase. Sin jerga de RR. HH.
@@ -117,7 +106,7 @@ en español, catalán o inglés — y para personas que quizá están aprendiend
 ✓ Así sí: "¿Buscas trabajo en construcción? Tenemos ofertas en Barcelona. Escríbenos y te ayudamos."
 ✕ Así no: "Se precisa la incorporación de perfiles cualificados para posiciones del sector constructivo."
 
-## 13 · Elementos gráficos e imagen
+## 12 · Elementos gráficos e imagen
 - **Globo y órbita** — alcance internacional. Líneas blancas al 15–30% y órbita amarilla discontinua.
   Siempre recortado en una esquina o al fondo.
 - **Patrón de destellos** — el símbolo repetido crea fondos de marca. Máximo un destello amarillo de cada tres.
@@ -126,14 +115,14 @@ en español, catalán o inglés — y para personas que quizá están aprendiend
   Tratamiento cálido y con contraste; evitar bancos de imágenes genéricos y poses forzadas.
   Temas: Obra · Logística · Entrevista · Equipo.
 
-## 14 · Papelería
+## 13 · Papelería
 - Tarjeta 85 × 55 mm (anverso y reverso): Nombre Apellido · Consultor/a de selección ·
   +34 697 987 900 · info@leedtech.es · leedtech.es · "Una empresa del Grupo Lanak".
 - Carta A4: pie "+34 697 987 900 · info@leedtech.es · Una empresa del Grupo Lanak".
 - Firma de correo: Nombre Apellido · Consultor/a de selección · LeedTech · teléfono, email, respaldo.
 - Sobre DL 220 × 110 mm: Carrer de Sant Pau, 115 · 08001 Barcelona.
 
-## 15 · Rótulo y redes sociales
+## 14 · Rótulo y redes sociales
 - Rótulo de fachada 210 × 59 cm, con logos de terceros (Western Union, Ria, Monty) como secundarios.
 - Ejemplos de redes: "¿Buscas trabajo? Ofertas en construcción, logística e industria." ·
   "ESTAMOS SELECCIONANDO: Encofradores, Electricistas, Mozos de almacén, Soldadores" · "Entra, t'ajudem."
@@ -144,5 +133,5 @@ en español, catalán o inglés — y para personas que quizá están aprendiend
 - Logos de terceros siempre secundarios y según sus normas de marca.
 - Datos de contacto en Poppins Medium con iconos amarillos.
 
-## 16 · Contraportada
+## 15 · Contraportada
 Logotipo vertical · +34 697 987 900 · info@leedtech.es · Una empresa del Grupo Lanak.
