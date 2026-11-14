@@ -1,61 +1,47 @@
-# HS Marketing — brand kit
+# HS Marketing
+
+*Marketing you notice. Results you can measure.*
 
 HS Marketing is HS Digital's social media and digital marketing agency for small businesses in Madrid, Bilbao and the rest of Spain. We run your social media, create content and launch ads that fill your diary.
-*Marketing que se nota. Resultados que se miden.* / *Marketing you notice. Results you can measure.*
-Part of HS Digital ([kit](../hs-digital/), HS Digital Solutions LTD). Website: [hsmarketing.es](https://hsmarketing.es).
-Preview of every logo: [preview-logos.png](preview-logos.png)
 
-Built from the live site (theme settings, blocks, copy) and the site logo files, which are kept untouched in `source/` (team repo only).
+Website: [hsmarketing.es](https://hsmarketing.es) · Brand page: [https://hsdg48.github.io/brand-library/brands/hs-marketing/](https://hsdg48.github.io/brand-library/brands/hs-marketing/)
+
+![HS Marketing logos](preview-logos.png)
 
 ## Logos
 
-All in `logo/svg/` (vector) and `logo/png/` (transparent, 512 / 1024 / 2048 / 4096 px wide). The mark is the family's leaf "HS"; the wordmark is outlined Bricolage Grotesque (ExtraBold "HS" + Medium "Marketing"), so no font is needed.
+Every layout and colour is in [`logo/svg/`](logo/svg/) (vector) and [`logo/png/`](logo/png/) (transparent PNG, 512 to 4096 px wide).
 
-| Layout | Use it for |
+## Colours
+
+| Colour | HEX |
 |---|---|
-| `hs-marketing-endorsed-{es,en}-*` | **Default.** Logo + "Parte de HS Digital" / "Part of HS Digital". |
-| `hs-marketing-endorsed-stacked-{es,en}-*` | Square formats with the endorsement. |
-| `hs-marketing-horizontal-*` | Standalone: when HS Digital already appears nearby, or the space is small. |
-| `hs-marketing-stacked-*` | Square formats, standalone. |
-| `hs-marketing-wordmark-*` | When the mark is already nearby. |
-| `hs-marketing-mark-*` | Avatars, favicons, small sizes. |
-| `hs-marketing-app-icon` · `-navy` | Rounded Navy tile: white mark with the lower half in Coral Chispa, or all white. |
+| Navy | `#0B3768` |
+| Blue | `#1E88D2` |
+| Coral | `#FF6B4A` |
+| Coral 700 | `#C2401F` |
+| Blue 700 | `#1466A6` |
+| Sky | `#E8F3FC` |
+| Mist | `#F6F9FC` |
+| Ink | `#0A1A2F` |
+| Slate | `#5A6B82` |
+| Line | `#DCE6F0` |
 
-Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (white + accent mark on Navy), `black` (one-colour print), `white` (Navy, Blue or photos).
+## Fonts
 
-Write the name **HS Marketing** (capital HS, a space, then "Marketing"). Accent: **Coral Chispa** (#FF6B4A), graphic device: hand-drawn underline.
+Bricolage Grotesque, Manrope (free on Google Fonts).
 
-## Documents (Spanish + English)
+## Downloads
 
-| File | What |
-|---|---|
-| `guide/hs-marketing-brand-guidelines-es.pdf` · `-en.pdf` | Brand guide, 16 portrait A4 pages |
-| `guide/index.html` · `index.en.html` | Same guide as a web page (language switch top right) |
-| `profile/hs-marketing-business-profile-es.pdf` · `-en.pdf` | One-page business profile |
-| `profile/hs-marketing-business-profile-es.md` · `-en.md` | Profile text and boilerplate for directories and press |
+**Brand guide:** [Brand guide · Español](guide/hs-marketing-brand-guidelines-es.pdf) · [Read online · Español](guide/index.html) · [Brand guide · English](guide/hs-marketing-brand-guidelines-en.pdf) · [Read online · English](guide/index.en.html)
 
-## Stationery (`stationery/`, each as `-es` and `-en`, in an **endorsed** and a **standalone** version)
+**Business profile:** [Business profile · Español](profile/hs-marketing-business-profile-es.pdf) · [Profile text · Español](profile/hs-marketing-business-profile-es.md) · [Business profile · English](profile/hs-marketing-business-profile-en.pdf) · [Profile text · English](profile/hs-marketing-business-profile-en.md)
 
-| File | What |
-|---|---|
-| `business-card-{endorsed|standalone}-{lang}-preview.png` | Front + back preview (sample name) |
-| `business-card-{endorsed|standalone}-{lang}.pdf` | Print PDF, 85 × 55 mm + 3 mm bleed (**team repo only**) |
-| `letterhead-{endorsed|standalone}-{lang}.pdf` | A4 letterhead, body left empty |
-| `email-signature-{endorsed|standalone}-{lang}.html` | Change the name/role, and point the logo `src` to the public PNG URL before pasting into Gmail/Outlook |
+**Stationery:** [Letterhead (endorsed) · Español](stationery/letterhead-endorsed-es.pdf) · [Email signature (endorsed) · Español](stationery/email-signature-endorsed-es.html) · [Business card (endorsed) · Español](stationery/business-card-endorsed-es-preview.png) · [Letterhead (endorsed) · English](stationery/letterhead-endorsed-en.pdf) · [Email signature (endorsed) · English](stationery/email-signature-endorsed-en.html) · [Business card (endorsed) · English](stationery/business-card-endorsed-en-preview.png) · [Letterhead (standalone) · Español](stationery/letterhead-standalone-es.pdf) · [Email signature (standalone) · Español](stationery/email-signature-standalone-es.html) · [Business card (standalone) · Español](stationery/business-card-standalone-es-preview.png) · [Letterhead (standalone) · English](stationery/letterhead-standalone-en.pdf) · [Email signature (standalone) · English](stationery/email-signature-standalone-en.html) · [Business card (standalone) · English](stationery/business-card-standalone-en-preview.png)
 
-Cards with a real person's details go in `private/` (team repo only; people are listed in `hs-digital/private/people.json`).
+**Icons:** [Favicon SVG](icons/favicon.svg) · [Favicon ICO](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon maskable-512](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
 
-## Icons and social
+Social media images (avatars, covers, Open Graph) are in [`social/`](social/).
 
-- `icons/`: favicon.ico / .svg / 16 / 32, Apple touch icon, Android icons (incl. maskable), `site.webmanifest`, `head-snippet.html` to paste into the site's `<head>`; `favicon-mark.svg` is the plain two-tone mark
-- `social/`: avatars (accent, navy, light), Open Graph image, LinkedIn, X, Facebook and YouTube covers, each as `-es` and `-en`
-
-## Data
-
-- `brand.json`: colours (with CMYK/Pantone estimates), fonts, voice, services, contacts, Spanish and English copy (single source of truth)
-- Rebuild: `node scripts/build-hs.mjs hs-marketing`, then `node scripts/icons-hs.mjs`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-marketing`
-- Fonts: Bricolage Grotesque and Manrope (SIL OFL, in `assets/fonts/`)
-
-## Licence
-
-Guide text and layouts: CC BY 4.0. The HS Marketing name and logos are trademarks of HS Digital Solutions LTD: use them to refer to HS Marketing (press, directories, partner pages), not to pretend to be it.
+---
+The HS Marketing name and logos are trademarks of their owner. Use them to refer to HS Marketing; please don't alter them.

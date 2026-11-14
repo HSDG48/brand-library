@@ -1,61 +1,47 @@
-# HS Dev — brand kit
+# HS Dev
+
+*Websites that work. And keep working.*
 
 HS Dev is the HS Digital group's web development and WordPress maintenance studio for small businesses in Madrid, Bilbao and across Spain. We build your website, connect it to your tools and keep it up to date.
-*Webs que funcionan. Y que siguen funcionando.* / *Websites that work. And keep working.*
-Part of HS Digital ([kit](../hs-digital/), HS Digital Solutions LTD). Website: [hsdev.es](https://hsdev.es).
-Preview of every logo: [preview-logos.png](preview-logos.png)
 
-Built from the live site (theme settings, blocks, copy) and the site logo files, which are kept untouched in `source/` (team repo only).
+Website: [hsdev.es](https://hsdev.es) · Brand page: [https://hsdg48.github.io/brand-library/brands/hs-dev/](https://hsdg48.github.io/brand-library/brands/hs-dev/)
+
+![HS Dev logos](preview-logos.png)
 
 ## Logos
 
-All in `logo/svg/` (vector) and `logo/png/` (transparent, 512 / 1024 / 2048 / 4096 px wide). The mark is the family's leaf "HS"; the wordmark is outlined Bricolage Grotesque (ExtraBold "HS" + Medium "Dev"), so no font is needed.
+Every layout and colour is in [`logo/svg/`](logo/svg/) (vector) and [`logo/png/`](logo/png/) (transparent PNG, 512 to 4096 px wide).
 
-| Layout | Use it for |
+## Colours
+
+| Colour | HEX |
 |---|---|
-| `hs-dev-endorsed-{es,en}-*` | **Default.** Logo + "Parte de HS Digital" / "Part of HS Digital". |
-| `hs-dev-endorsed-stacked-{es,en}-*` | Square formats with the endorsement. |
-| `hs-dev-horizontal-*` | Standalone: when HS Digital already appears nearby, or the space is small. |
-| `hs-dev-stacked-*` | Square formats, standalone. |
-| `hs-dev-wordmark-*` | When the mark is already nearby. |
-| `hs-dev-mark-*` | Avatars, favicons, small sizes. |
-| `hs-dev-app-icon` · `-navy` | Rounded Navy tile: white mark with the lower half in Violeta Compilado, or all white. |
+| Navy | `#0B3768` |
+| Blue | `#1E88D2` |
+| Violet | `#B39DFF` |
+| Violet 700 | `#5634D1` |
+| Blue 700 | `#1466A6` |
+| Sky | `#E8F3FC` |
+| Mist | `#F6F9FC` |
+| Ink | `#0A1A2F` |
+| Slate | `#5A6B82` |
+| Line | `#DCE6F0` |
 
-Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (white + accent mark on Navy), `black` (one-colour print), `white` (Navy, Blue or photos).
+## Fonts
 
-Write the name **HS Dev** (capital HS, a space, then "Dev"). Accent: **Violeta Compilado** (#B39DFF), graphic device: code brackets.
+Bricolage Grotesque, Manrope (free on Google Fonts).
 
-## Documents (Spanish + English)
+## Downloads
 
-| File | What |
-|---|---|
-| `guide/hs-dev-brand-guidelines-es.pdf` · `-en.pdf` | Brand guide, 16 portrait A4 pages |
-| `guide/index.html` · `index.en.html` | Same guide as a web page (language switch top right) |
-| `profile/hs-dev-business-profile-es.pdf` · `-en.pdf` | One-page business profile |
-| `profile/hs-dev-business-profile-es.md` · `-en.md` | Profile text and boilerplate for directories and press |
+**Brand guide:** [Brand guide · Español](guide/hs-dev-brand-guidelines-es.pdf) · [Read online · Español](guide/index.html) · [Brand guide · English](guide/hs-dev-brand-guidelines-en.pdf) · [Read online · English](guide/index.en.html)
 
-## Stationery (`stationery/`, each as `-es` and `-en`, in an **endorsed** and a **standalone** version)
+**Business profile:** [Business profile · Español](profile/hs-dev-business-profile-es.pdf) · [Profile text · Español](profile/hs-dev-business-profile-es.md) · [Business profile · English](profile/hs-dev-business-profile-en.pdf) · [Profile text · English](profile/hs-dev-business-profile-en.md)
 
-| File | What |
-|---|---|
-| `business-card-{endorsed|standalone}-{lang}-preview.png` | Front + back preview (sample name) |
-| `business-card-{endorsed|standalone}-{lang}.pdf` | Print PDF, 85 × 55 mm + 3 mm bleed (**team repo only**) |
-| `letterhead-{endorsed|standalone}-{lang}.pdf` | A4 letterhead, body left empty |
-| `email-signature-{endorsed|standalone}-{lang}.html` | Change the name/role, and point the logo `src` to the public PNG URL before pasting into Gmail/Outlook |
+**Stationery:** [Letterhead (endorsed) · Español](stationery/letterhead-endorsed-es.pdf) · [Email signature (endorsed) · Español](stationery/email-signature-endorsed-es.html) · [Business card (endorsed) · Español](stationery/business-card-endorsed-es-preview.png) · [Letterhead (endorsed) · English](stationery/letterhead-endorsed-en.pdf) · [Email signature (endorsed) · English](stationery/email-signature-endorsed-en.html) · [Business card (endorsed) · English](stationery/business-card-endorsed-en-preview.png) · [Letterhead (standalone) · Español](stationery/letterhead-standalone-es.pdf) · [Email signature (standalone) · Español](stationery/email-signature-standalone-es.html) · [Business card (standalone) · Español](stationery/business-card-standalone-es-preview.png) · [Letterhead (standalone) · English](stationery/letterhead-standalone-en.pdf) · [Email signature (standalone) · English](stationery/email-signature-standalone-en.html) · [Business card (standalone) · English](stationery/business-card-standalone-en-preview.png)
 
-Cards with a real person's details go in `private/` (team repo only; people are listed in `hs-digital/private/people.json`).
+**Icons:** [Favicon SVG](icons/favicon.svg) · [Favicon ICO](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon maskable-512](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
 
-## Icons and social
+Social media images (avatars, covers, Open Graph) are in [`social/`](social/).
 
-- `icons/`: favicon.ico / .svg / 16 / 32, Apple touch icon, Android icons (incl. maskable), `site.webmanifest`, `head-snippet.html` to paste into the site's `<head>`; `favicon-mark.svg` is the plain two-tone mark
-- `social/`: avatars (accent, navy, light), Open Graph image, LinkedIn, X, Facebook and YouTube covers, each as `-es` and `-en`
-
-## Data
-
-- `brand.json`: colours (with CMYK/Pantone estimates), fonts, voice, services, contacts, Spanish and English copy (single source of truth)
-- Rebuild: `node scripts/build-hs.mjs hs-dev`, then `node scripts/icons-hs.mjs`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-dev`
-- Fonts: Bricolage Grotesque and Manrope (SIL OFL, in `assets/fonts/`)
-
-## Licence
-
-Guide text and layouts: CC BY 4.0. The HS Dev name and logos are trademarks of HS Digital Solutions LTD: use them to refer to HS Dev (press, directories, partner pages), not to pretend to be it.
+---
+The HS Dev name and logos are trademarks of their owner. Use them to refer to HS Dev; please don't alter them.

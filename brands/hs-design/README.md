@@ -1,61 +1,47 @@
-# HS Design — brand kit
+# HS Design
+
+*A website that makes sense at first glance.*
 
 HS Design is the HS Digital group's web design studio. We design websites, redesigns and landing pages for small businesses across Spain, with a sketch first, a fixed price and every decision explained.
-*Una web que se entiende a la primera.* / *A website that makes sense at first glance.*
-Part of HS Digital ([kit](../hs-digital/), HS Digital Solutions LTD). Website: [hsdesign.es](https://hsdesign.es).
-Preview of every logo: [preview-logos.png](preview-logos.png)
 
-Built from the live site (theme settings, blocks, copy) and the site logo files, which are kept untouched in `source/` (team repo only).
+Website: [hsdesign.es](https://hsdesign.es) · Brand page: [https://hsdg48.github.io/brand-library/brands/hs-design/](https://hsdg48.github.io/brand-library/brands/hs-design/)
+
+![HS Design logos](preview-logos.png)
 
 ## Logos
 
-All in `logo/svg/` (vector) and `logo/png/` (transparent, 512 / 1024 / 2048 / 4096 px wide). The mark is the family's leaf "HS"; the wordmark is outlined Bricolage Grotesque (ExtraBold "HS" + Medium "Design"), so no font is needed.
+Every layout and colour is in [`logo/svg/`](logo/svg/) (vector) and [`logo/png/`](logo/png/) (transparent PNG, 512 to 4096 px wide).
 
-| Layout | Use it for |
+## Colours
+
+| Colour | HEX |
 |---|---|
-| `hs-design-endorsed-{es,en}-*` | **Default.** Logo + "Parte de HS Digital" / "Part of HS Digital". |
-| `hs-design-endorsed-stacked-{es,en}-*` | Square formats with the endorsement. |
-| `hs-design-horizontal-*` | Standalone: when HS Digital already appears nearby, or the space is small. |
-| `hs-design-stacked-*` | Square formats, standalone. |
-| `hs-design-wordmark-*` | When the mark is already nearby. |
-| `hs-design-mark-*` | Avatars, favicons, small sizes. |
-| `hs-design-app-icon` · `-navy` | Rounded Navy tile: white mark with the lower half in Amarillo Boceto, or all white. |
+| Navy | `#0B3768` |
+| Blue | `#1E88D2` |
+| Yellow | `#FFC233` |
+| Yellow 700 | `#8A5A00` |
+| Blue 700 | `#1466A6` |
+| Sky | `#E8F3FC` |
+| Mist | `#F6F9FC` |
+| Ink | `#0A1A2F` |
+| Slate | `#5A6B82` |
+| Line | `#DCE6F0` |
 
-Colourways: `colour` (white/light, default), `navy` (one colour), `accent` (white + accent mark on Navy), `black` (one-colour print), `white` (Navy, Blue or photos).
+## Fonts
 
-Write the name **HS Design** (capital HS, a space, then "Design"). Accent: **Amarillo Boceto** (#FFC233), graphic device: highlighter band.
+Bricolage Grotesque, Manrope (free on Google Fonts).
 
-## Documents (Spanish + English)
+## Downloads
 
-| File | What |
-|---|---|
-| `guide/hs-design-brand-guidelines-es.pdf` · `-en.pdf` | Brand guide, 16 portrait A4 pages |
-| `guide/index.html` · `index.en.html` | Same guide as a web page (language switch top right) |
-| `profile/hs-design-business-profile-es.pdf` · `-en.pdf` | One-page business profile |
-| `profile/hs-design-business-profile-es.md` · `-en.md` | Profile text and boilerplate for directories and press |
+**Brand guide:** [Brand guide · Español](guide/hs-design-brand-guidelines-es.pdf) · [Read online · Español](guide/index.html) · [Brand guide · English](guide/hs-design-brand-guidelines-en.pdf) · [Read online · English](guide/index.en.html)
 
-## Stationery (`stationery/`, each as `-es` and `-en`, in an **endorsed** and a **standalone** version)
+**Business profile:** [Business profile · Español](profile/hs-design-business-profile-es.pdf) · [Profile text · Español](profile/hs-design-business-profile-es.md) · [Business profile · English](profile/hs-design-business-profile-en.pdf) · [Profile text · English](profile/hs-design-business-profile-en.md)
 
-| File | What |
-|---|---|
-| `business-card-{endorsed|standalone}-{lang}-preview.png` | Front + back preview (sample name) |
-| `business-card-{endorsed|standalone}-{lang}.pdf` | Print PDF, 85 × 55 mm + 3 mm bleed (**team repo only**) |
-| `letterhead-{endorsed|standalone}-{lang}.pdf` | A4 letterhead, body left empty |
-| `email-signature-{endorsed|standalone}-{lang}.html` | Change the name/role, and point the logo `src` to the public PNG URL before pasting into Gmail/Outlook |
+**Stationery:** [Letterhead (endorsed) · Español](stationery/letterhead-endorsed-es.pdf) · [Email signature (endorsed) · Español](stationery/email-signature-endorsed-es.html) · [Business card (endorsed) · Español](stationery/business-card-endorsed-es-preview.png) · [Letterhead (endorsed) · English](stationery/letterhead-endorsed-en.pdf) · [Email signature (endorsed) · English](stationery/email-signature-endorsed-en.html) · [Business card (endorsed) · English](stationery/business-card-endorsed-en-preview.png) · [Letterhead (standalone) · Español](stationery/letterhead-standalone-es.pdf) · [Email signature (standalone) · Español](stationery/email-signature-standalone-es.html) · [Business card (standalone) · Español](stationery/business-card-standalone-es-preview.png) · [Letterhead (standalone) · English](stationery/letterhead-standalone-en.pdf) · [Email signature (standalone) · English](stationery/email-signature-standalone-en.html) · [Business card (standalone) · English](stationery/business-card-standalone-en-preview.png)
 
-Cards with a real person's details go in `private/` (team repo only; people are listed in `hs-digital/private/people.json`).
+**Icons:** [Favicon SVG](icons/favicon.svg) · [Favicon ICO](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon maskable-512](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
 
-## Icons and social
+Social media images (avatars, covers, Open Graph) are in [`social/`](social/).
 
-- `icons/`: favicon.ico / .svg / 16 / 32, Apple touch icon, Android icons (incl. maskable), `site.webmanifest`, `head-snippet.html` to paste into the site's `<head>`; `favicon-mark.svg` is the plain two-tone mark
-- `social/`: avatars (accent, navy, light), Open Graph image, LinkedIn, X, Facebook and YouTube covers, each as `-es` and `-en`
-
-## Data
-
-- `brand.json`: colours (with CMYK/Pantone estimates), fonts, voice, services, contacts, Spanish and English copy (single source of truth)
-- Rebuild: `node scripts/build-hs.mjs hs-design`, then `node scripts/icons-hs.mjs`, `node scripts/docs/hs-{social,stationery,profile,guide}.mjs hs-design`
-- Fonts: Bricolage Grotesque and Manrope (SIL OFL, in `assets/fonts/`)
-
-## Licence
-
-Guide text and layouts: CC BY 4.0. The HS Design name and logos are trademarks of HS Digital Solutions LTD: use them to refer to HS Design (press, directories, partner pages), not to pretend to be it.
+---
+The HS Design name and logos are trademarks of their owner. Use them to refer to HS Design; please don't alter them.

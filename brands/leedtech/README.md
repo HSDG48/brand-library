@@ -1,81 +1,42 @@
-# LeedTech — brand kit
+# LeedTech
 
-Recruitment company of Grupo Lanak, Barcelona. *Talent Beyond Borders.*
-Preview of every logo: [preview-logos.png](preview-logos.png)
+*Talent Beyond Borders*
 
-Browse it in Figma: [LeedTech brand kit](https://www.figma.com/design/DzLdrTwlIJPNAj1dYggPdb) (logos, icons, guide ES/EN, profile, stationery, social).
-It is a view-only mirror: the scripts and files here are the master, so change things here and re-import, never edit in Figma.
+LeedTech is the recruitment company of Grupo Lanak. We connect qualified professionals with employers across Spain: we find, assess and support talent all the way to their first day, wherever they come from.
+
+Website: [leedtech.es](https://leedtech.es) · Brand page: [https://hsdg48.github.io/brand-library/brands/leedtech/](https://hsdg48.github.io/brand-library/brands/leedtech/)
+
+![LeedTech logos](preview-logos.png)
 
 ## Logos
 
-All in `logo/svg/` (vector masters) and `logo/png/` (transparent, 512 / 1024 / 2048 / 4096 px wide).
+Every layout and colour is in [`logo/svg/`](logo/svg/) (vector) and [`logo/png/`](logo/png/) (transparent PNG, 512 to 4096 px wide).
 
-| Layout | Use it for |
+## Colours
+
+| Colour | HEX |
 |---|---|
-| `leedtech-primary-*` | Default. Wordmark + spark + tagline. |
-| `leedtech-horizontal-*` | Small spaces (no tagline). |
-| `leedtech-vertical-*` | Square formats. |
-| `leedtech-symbol-*` | Avatars, favicons, app icons. |
-| `lockups/leedtech-grupo-lanak-cobrand-*` | **LeedTech \| Grupo Lanak**: the **preferred** signature. Use it wherever possible: cards, web, email, social. |
-| `lockups/leedtech-grupo-lanak-endorsement-*` | **LeedTech · Una empresa del Grupo Lanak**: shows group membership. |
-| `group/` | Grupo Lanak, Lanak, Akilan, Qualis (colour, black, white). |
+| Ink Black | `#111111` |
+| Signal Yellow | `#FFC20E` |
+| White | `#FFFFFF` |
+| Graphite | `#2B2B2B` |
+| Grey | `#8A8A8A` |
 
-| Colourway suffix | Background it's made for |
-|---|---|
-| `colour-dark` | Black (preferred) |
-| `colour-light` | White / light |
-| `black` / `white` | One-colour printing, embossing, photos |
-| `group` | White, inside Grupo Lanak materials (Azul + Lima) |
-| `group-negative` | Azul Grupo background |
+## Fonts
 
-Rule: never mix the two systems in one piece (e.g. a yellow spark with a blue wordmark).
+Outfit, Poppins (free on Google Fonts).
 
-## Documents (Spanish + English)
+## Downloads
 
-| File | What |
-|---|---|
-| `guide/leedtech-brand-guidelines-es.pdf` · `-en.pdf` | Brand guide, 16 portrait A4 pages |
-| `guide/index.html` · `index.en.html` | Same guide as a web page (language switch top right) |
-| `profile/leedtech-business-profile-es.pdf` · `-en.pdf` | One-page business profile |
-| `profile/leedtech-business-profile-es.md` · `-en.md` | Profile text and boilerplate to copy into directories, press, tenders |
+**Brand guide:** [Brand guide · Español](guide/leedtech-brand-guidelines-es.pdf) · [Read online · Español](guide/index.html) · [Brand guide · English](guide/leedtech-brand-guidelines-en.pdf) · [Read online · English](guide/index.en.html)
 
-## Stationery: two versions of everything
+**Business profile:** [Business profile · Español](profile/leedtech-business-profile-es.pdf) · [Profile text · Español](profile/leedtech-business-profile-es.md) · [Business profile · English](profile/leedtech-business-profile-en.pdf) · [Profile text · English](profile/leedtech-business-profile-en.md)
 
-Use **co-brand** (LeedTech | Grupo Lanak) wherever possible. **Standard** (LeedTech logo + "Una empresa del Grupo Lanak") is for small spaces or pieces where the Group shouldn't appear. Each file exists as `-es` and `-en`, in `stationery/`.
+**Stationery:** [Letterhead (co-brand) · Español](stationery/letterhead-cobrand-es.pdf) · [Email signature (co-brand) · Español](stationery/email-signature-cobrand-es.html) · [Business card (co-brand) · Español](stationery/business-card-cobrand-es-preview.png) · [Letterhead (co-brand) · English](stationery/letterhead-cobrand-en.pdf) · [Email signature (co-brand) · English](stationery/email-signature-cobrand-en.html) · [Business card (co-brand) · English](stationery/business-card-cobrand-en-preview.png) · [Letterhead (standard) · Español](stationery/letterhead-standard-es.pdf) · [Email signature (standard) · Español](stationery/email-signature-standard-es.html) · [Business card (standard) · Español](stationery/business-card-standard-es-preview.png) · [Letterhead (standard) · English](stationery/letterhead-standard-en.pdf) · [Email signature (standard) · English](stationery/email-signature-standard-en.html) · [Business card (standard) · English](stationery/business-card-standard-en-preview.png)
 
-| File | What |
-|---|---|
-| `business-card-{cobrand,standard}-{lang}-preview.png` | Front + back preview |
-| `business-card-{cobrand,standard}-{lang}.pdf` | Print PDF, 85 × 55 mm + 3 mm bleed (**team repo only**) |
-| `letterhead-{cobrand,standard}-{lang}.pdf` | A4 letterhead, body left empty |
-| `email-signature-{cobrand,standard}-{lang}.html` | Change the name/role, and point the logo `src` to the public PNG URL before pasting into Gmail/Outlook |
+**Icons:** [Favicon SVG](icons/favicon.svg) · [Favicon ICO](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon maskable-512](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
 
-Cards with a real person's details go in `private/` (team repo only), never in `stationery/`.
+Social media images (avatars, covers, Open Graph) are in [`social/`](social/).
 
-## Icons and social
-
-- `icons/`: favicon.ico / .svg, Apple touch icon, Android icons (incl. maskable), `site.webmanifest`, `head-snippet.html` to paste into a site's `<head>`
-- `social/`: avatars (dark, yellow, light), Open Graph image, LinkedIn, X, Facebook and YouTube covers, each as `-es` and `-en`, and as co-brand `-cobrand-es` / `-cobrand-en` (preferred)
-
-## Data
-
-- `brand.json`: colours, fonts, contacts, logo rules (single source of truth)
-- `guide/content.es.md`: full text of the original brand manual
-- `source/figma/`: untouched exports from the Figma file (team repo only)
-
-Rebuild everything (from `brand-library/`, needs Node and Microsoft Edge or Chrome):
-
-```
-node scripts/build-leedtech.mjs          # logos + lockups
-node scripts/icons-leedtech.mjs          # favicons, app icons, avatars
-node scripts/docs/leedtech-social.mjs      # social covers, standard + co-brand
-node scripts/docs/leedtech-stationery.mjs  # cards, letterheads, email signatures
-node scripts/docs/leedtech-guide.mjs       # brand guide, every language in brand.json (run after stationery)
-node scripts/docs/leedtech-profile.mjs     # business profile
-```
-
-Look at single pages: `node scripts/docs/check-pages.mjs brands/leedtech/guide/index.en.html _check 1,7`.
-
-**Licence:** guide text and layouts are CC BY 4.0. The LeedTech and Grupo Lanak names and logos
-are trademarks of their owners. You may use them to refer to LeedTech; do not alter them or use
-them in a way that suggests endorsement.
+---
+The LeedTech name and logos are trademarks of their owner. Use them to refer to LeedTech; please don't alter them.
