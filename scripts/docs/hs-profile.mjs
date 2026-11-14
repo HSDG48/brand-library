@@ -25,7 +25,7 @@ const splitFigure = (s) => { const m = s.match(/^([\d.,]+\s?(?:h|px|%)?)\s+(.*)$
 
 function profileHtml(H, lang) {
   const { brand: B, K, isParent, slug } = H, T = copyOf(B, lang), U = UI[lang], C = B.contact;
-  const logo = isParent ? `${slug}-horizontal-white` : `${slug}-endorsed-${lang}-white`;
+  const logo = isParent ? `${slug}-spectrum-horizontal-white` : `${slug}-endorsed-${lang}-white`;
   const members = isParent ? B.family.members.map((s) => loadHs(s)) : [];
   const left = isParent
     ? `<div><div class="label">${U.family}</div><div class="svc">${members.map((S) => `<div class="pt" style="border-top-color:${S.K.accent}">

@@ -14,6 +14,7 @@ All in `logo/svg/` (vector) and `logo/png/` (transparent, 512 / 1024 / 2048 / 40
 | Layout | Use it for |
 |---|---|
 | `hs-digital-horizontal-*` | Default. Mark + "HS Digital". |
+| `hs-digital-spectrum-{horizontal,stacked}-*` | Group logo: a bar segment per division (Marketing, SEO, Dev, Design). Covers, profile, social, presentations. |
 | `hs-digital-solutions-horizontal-*` | Formal / legal pieces: "HS Digital Solutions". |
 | `hs-digital-stacked-*` | Square formats. |
 | `hs-digital-wordmark-*` | When the mark is already nearby. |

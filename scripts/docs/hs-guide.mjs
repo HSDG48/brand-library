@@ -34,8 +34,8 @@ function build(H, lang) {
   };
   const P = [];
   const sections = [G.idea.k, G.logo.k, isParent ? G.arch.k : G.family.k, G.versions.k, G.space.k, G.misuse.k, G.colour.k, G.type.k, G.motif.k, G.voice.k, G.words.k, G.apps.k, G.icons.k];
-  const logoWhite = isParent ? 'horizontal-white' : `endorsed-${lang}-white`;
-  const logoColour = isParent ? 'horizontal-colour' : `endorsed-${lang}-colour`;
+  const logoWhite = isParent ? 'spectrum-horizontal-white' : `endorsed-${lang}-white`;
+  const logoColour = isParent ? 'spectrum-horizontal-colour' : `endorsed-${lang}-colour`;
 
   // 01 Cover
   const coverBox = 'right:-48mm;bottom:-40mm;width:190mm;height:190mm';
@@ -80,7 +80,9 @@ function build(H, lang) {
     const subs = B.family.members.map((s) => loadHs(s));
     P.push(page(G.arch.k, `<h1>${G.arch.h}</h1><p class="lead">${G.arch.lead}</p>
     <div class="body">
-      <div class="tile white" style="min-height:78mm;padding:10mm">${img('family-colour', 'max-height:62mm', 'HS Digital family')}</div>
+      <div class="grid g2"><div><div class="tile white" style="min-height:34mm">${img('spectrum-horizontal-colour', 'max-height:17mm')}</div></div><div><div class="tile navy" style="min-height:34mm">${img('spectrum-horizontal-white', 'max-height:17mm')}</div></div></div>
+      <div class="cap" style="margin-top:-2mm">${G.arch.spectrum[0]}<span>${G.arch.spectrum[1]}</span></div>
+      <div class="tile white" style="min-height:52mm;padding:7mm">${img('family-colour', 'max-height:40mm', 'HS Digital family')}</div>
       <table><tr>${G.arch.th.map((t) => `<th>${t}</th>`).join('')}</tr>
         ${subs.map((S) => { const a = S.brand.colors.find((c) => c.role === 'accent'); return `<tr><td><b>${esc(S.brand.name)}</b><br><span class="small">${esc(T.subBrands[S.slug])}</span></td><td>${web(S.brand)}</td>
           <td><span class="dot" style="background:${a.hex}"></span>${esc(S.brand.motif.accentName)}<br><span class="small">${a.hex}</span></td><td>${G.arch.motif[S.brand.motif.type]}</td></tr>`; }).join('')}</table>

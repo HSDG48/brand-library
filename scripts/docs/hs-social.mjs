@@ -21,7 +21,7 @@ const COVERS = {
 function page(H, c, lang) {
   const { brand: B, dir, K, isParent } = H;
   const T = copyOf(B, lang);
-  const logoFile = isParent ? `${H.slug}-horizontal-white` : `${H.slug}-endorsed-${lang}-white`;
+  const logoFile = isParent ? `${H.slug}-spectrum-horizontal-white` : `${H.slug}-endorsed-${lang}-white`;
   const LOGO = inlineSvg(path.join(dir, 'logo/svg', logoFile + '.svg'), { cls: 'logo', label: B.name });
   const items = c.align === 'center' ? 'center' : c.align === 'right' ? 'flex-end' : 'flex-start';
   const L = c.logo, S = c.size, short = c.h / c.w < 0.3;

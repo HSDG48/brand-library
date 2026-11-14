@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { tight, toPng, bbox, r } from './lib/svg.mjs';
 import { contactSheet } from './lib/preview.mjs';
-import { FAMILY, loadHs, partsOf, horizontal, stacked, wordPiece, markPiece, appIcon } from './lib/hs.mjs';
+import { FAMILY, loadHs, partsOf, horizontal, stacked, wordPiece, markPiece, appIcon, spectrum } from './lib/hs.mjs';
 
 const PNG_WIDTHS = [512, 1024, 2048, 4096];
 const slugs = process.argv.slice(2).length ? process.argv.slice(2) : FAMILY;
@@ -62,6 +62,10 @@ function buildBrand(slug) {
       // Full company name lockup for legal / contract use.
       const full = [...parts, { text: 'Solutions', weight: 'md' }];
       write(`${slug}-solutions-horizontal-${name}`, tight(horizontal({ ...base, parts: full }), { title: `HS Digital Solutions ${name}` }), c.bg);
+      // Spectrum: the group logo, one bar segment per division (accents; one-colour versions stay one colour).
+      const bar = ['navy', 'black'].includes(name) ? Array(4).fill(c.word) : B.family.members.map((m) => loadHs(m).K.accent);
+      write(`${slug}-spectrum-horizontal-${name}`, tight(spectrum({ ...base, bar }), { pad, title: `HS Digital spectrum ${name}` }), c.bg);
+      write(`${slug}-spectrum-stacked-${name}`, tight(spectrum({ ...base, bar, layout: 'stacked' }), { pad, title: `HS Digital spectrum stacked ${name}` }), c.bg);
     }
   }
 

@@ -138,5 +138,23 @@ export function stacked({ parts, top, bottom, word, M = 371, endorse }) {
   return { markup, box: { x: 0, y: 0, w: W, h: Math.max(h, low) } };
 }
 
+// Spectrum (parent group logo): the lockup + a four-segment bar under the wordmark, one segment per division
+// (Marketing, SEO, Dev, Design accents in family order). Bar: 0.14 × cap height thick, segment gap 0.12 × cap height.
+function spectrumBar(x, y, w, capH, colours) {
+  const h = capH * 0.14, g = capH * 0.12, seg = (w - g * (colours.length - 1)) / colours.length;
+  return colours.map((c, i) => `<rect x="${r(x + i * (seg + g))}" y="${r(y)}" width="${r(seg)}" height="${r(h)}" rx="${r(h / 2)}" fill="${c}"/>`).join('');
+}
+export function spectrum({ parts, top, bottom, word, bar, M = 371, layout = 'horizontal' }) {
+  const ww = (capH) => wordPiece(parts, word).box.w * (capH / 100);
+  if (layout === 'stacked') {
+    const L = stacked({ parts, top, bottom, word, M }), capH = M * 0.30, w = ww(capH);
+    const y = L.box.h + capH * 0.30;
+    return { markup: L.markup + spectrumBar((L.box.w - w) / 2, y, w, capH, bar), box: { x: 0, y: 0, w: L.box.w, h: y + capH * 0.14 } };
+  }
+  const L = horizontal({ parts, top, bottom, word, M }), capH = M * LOCK.cap, x0 = M + M * LOCK.gap;
+  const y = (M - capH) / 2 + capH * 1.42;
+  return { markup: L.markup + spectrumBar(x0, y, ww(capH), capH, bar), box: L.box };
+}
+
 // Wordmark parts from brand.json ("wordmark": ["HS", "SEO"]).
 export const partsOf = (brand) => brand.wordmark.map((t, i) => ({ text: t, weight: i === 0 ? 'xb' : 'md' }));
