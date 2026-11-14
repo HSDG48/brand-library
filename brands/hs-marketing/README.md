@@ -1,47 +1,48 @@
 # HS Marketing
 
+![HS Marketing](preview-logos.png)
+
+[English](#english) · [Español](#español)
+
+## English
+
 *Marketing you notice. Results you can measure.*
 
 HS Marketing is HS Digital's social media and digital marketing agency for small businesses in Madrid, Bilbao and the rest of Spain. We run your social media, create content and launch ads that fill your diary.
 
-Website: [hsmarketing.es](https://hsmarketing.es) · Brand page: [https://hsdg48.github.io/brand-library/brands/hs-marketing/](https://hsdg48.github.io/brand-library/brands/hs-marketing/)
+Web: [hsmarketing.es](https://hsmarketing.es) · Brand page: [https://hsdg48.github.io/brand-library/brands/hs-marketing/](https://hsdg48.github.io/brand-library/brands/hs-marketing/)
 
-![HS Marketing logos](preview-logos.png)
+**Logos:** [`logo/svg/`](logo/svg/) (SVG) · [`logo/png/`](logo/png/) (PNG, 512–4096 px)
 
-## Logos
+**Colours:** Navy `#0B3768` · Blue `#1E88D2` · Coral `#FF6B4A` · Coral 700 `#C2401F` · Blue 700 `#1466A6` · Sky `#E8F3FC` · Mist `#F6F9FC` · Ink `#0A1A2F` · Slate `#5A6B82` · Line `#DCE6F0`
 
-Every layout and colour is in [`logo/svg/`](logo/svg/) (vector) and [`logo/png/`](logo/png/) (transparent PNG, 512 to 4096 px wide).
+**Fonts:** Bricolage Grotesque, Manrope (Google Fonts)
 
-## Colours
+- **Brand guide:** [Brand guide · English](guide/hs-marketing-brand-guidelines-en.pdf) · [Read online · English](guide/index.en.html) · [Brand guide · Español](guide/hs-marketing-brand-guidelines-es.pdf) · [Read online · Español](guide/index.html)
+- **Business profile:** [Business profile · English](profile/hs-marketing-business-profile-en.pdf) · [Profile text · English](profile/hs-marketing-business-profile-en.md) · [Business profile · Español](profile/hs-marketing-business-profile-es.pdf) · [Profile text · Español](profile/hs-marketing-business-profile-es.md)
+- **Stationery:** [Letterhead (endorsed)](stationery/letterhead-endorsed-en.pdf) · [Email signature (endorsed)](stationery/email-signature-endorsed-en.html) · [Business card (endorsed)](stationery/business-card-endorsed-en-preview.png) · [Letterhead (standalone)](stationery/letterhead-standalone-en.pdf) · [Email signature (standalone)](stationery/email-signature-standalone-en.html) · [Business card (standalone)](stationery/business-card-standalone-en-preview.png)
+- **Icons:** [Favicon](icons/favicon.svg) · [Favicon](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon 512 maskable](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
+- **Social media images:** [`social/`](social/)
 
-| Colour | HEX |
-|---|---|
-| Navy | `#0B3768` |
-| Blue | `#1E88D2` |
-| Coral | `#FF6B4A` |
-| Coral 700 | `#C2401F` |
-| Blue 700 | `#1466A6` |
-| Sky | `#E8F3FC` |
-| Mist | `#F6F9FC` |
-| Ink | `#0A1A2F` |
-| Slate | `#5A6B82` |
-| Line | `#DCE6F0` |
+## Español
 
-## Fonts
+*Marketing que se nota. Resultados que se miden.*
 
-Bricolage Grotesque, Manrope (free on Google Fonts).
+HS Marketing es la agencia de redes sociales y marketing digital de HS Digital para pequeños negocios de Madrid, Bilbao y el resto de España. Gestionamos tus redes, creamos contenido y lanzamos anuncios que llenan tu agenda.
 
-## Downloads
+Web: [hsmarketing.es](https://hsmarketing.es) · Página de marca: [https://hsdg48.github.io/brand-library/brands/hs-marketing/index.es.html](https://hsdg48.github.io/brand-library/brands/hs-marketing/index.es.html)
 
-**Brand guide:** [Brand guide · Español](guide/hs-marketing-brand-guidelines-es.pdf) · [Read online · Español](guide/index.html) · [Brand guide · English](guide/hs-marketing-brand-guidelines-en.pdf) · [Read online · English](guide/index.en.html)
+**Logotipos:** [`logo/svg/`](logo/svg/) (SVG) · [`logo/png/`](logo/png/) (PNG, 512–4096 px)
 
-**Business profile:** [Business profile · Español](profile/hs-marketing-business-profile-es.pdf) · [Profile text · Español](profile/hs-marketing-business-profile-es.md) · [Business profile · English](profile/hs-marketing-business-profile-en.pdf) · [Profile text · English](profile/hs-marketing-business-profile-en.md)
+**Colores:** Navy `#0B3768` · Blue `#1E88D2` · Coral `#FF6B4A` · Coral 700 `#C2401F` · Blue 700 `#1466A6` · Sky `#E8F3FC` · Mist `#F6F9FC` · Ink `#0A1A2F` · Slate `#5A6B82` · Line `#DCE6F0`
 
-**Stationery:** [Letterhead (endorsed) · Español](stationery/letterhead-endorsed-es.pdf) · [Email signature (endorsed) · Español](stationery/email-signature-endorsed-es.html) · [Business card (endorsed) · Español](stationery/business-card-endorsed-es-preview.png) · [Letterhead (endorsed) · English](stationery/letterhead-endorsed-en.pdf) · [Email signature (endorsed) · English](stationery/email-signature-endorsed-en.html) · [Business card (endorsed) · English](stationery/business-card-endorsed-en-preview.png) · [Letterhead (standalone) · Español](stationery/letterhead-standalone-es.pdf) · [Email signature (standalone) · Español](stationery/email-signature-standalone-es.html) · [Business card (standalone) · Español](stationery/business-card-standalone-es-preview.png) · [Letterhead (standalone) · English](stationery/letterhead-standalone-en.pdf) · [Email signature (standalone) · English](stationery/email-signature-standalone-en.html) · [Business card (standalone) · English](stationery/business-card-standalone-en-preview.png)
+**Tipografías:** Bricolage Grotesque, Manrope (Google Fonts)
 
-**Icons:** [Favicon SVG](icons/favicon.svg) · [Favicon ICO](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon maskable-512](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
-
-Social media images (avatars, covers, Open Graph) are in [`social/`](social/).
+- **Manual de marca:** [Manual de marca · Español](guide/hs-marketing-brand-guidelines-es.pdf) · [Leer online · Español](guide/index.html) · [Manual de marca · English](guide/hs-marketing-brand-guidelines-en.pdf) · [Leer online · English](guide/index.en.html)
+- **Perfil de empresa:** [Perfil de empresa · Español](profile/hs-marketing-business-profile-es.pdf) · [Texto del perfil · Español](profile/hs-marketing-business-profile-es.md) · [Perfil de empresa · English](profile/hs-marketing-business-profile-en.pdf) · [Texto del perfil · English](profile/hs-marketing-business-profile-en.md)
+- **Papelería:** [Papel con membrete (con respaldo)](stationery/letterhead-endorsed-es.pdf) · [Firma de email (con respaldo)](stationery/email-signature-endorsed-es.html) · [Tarjeta de visita (con respaldo)](stationery/business-card-endorsed-es-preview.png) · [Papel con membrete (independiente)](stationery/letterhead-standalone-es.pdf) · [Firma de email (independiente)](stationery/email-signature-standalone-es.html) · [Tarjeta de visita (independiente)](stationery/business-card-standalone-es-preview.png)
+- **Iconos:** [Favicon](icons/favicon.svg) · [Favicon](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon 512 maskable](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
+- **Imágenes para redes sociales:** [`social/`](social/)
 
 ---
-The HS Marketing name and logos are trademarks of their owner. Use them to refer to HS Marketing; please don't alter them.
+The logos and brand names are trademarks of their owners. You are welcome to use them to refer to the brand (press, directories, partner pages). Please don't alter them or suggest an endorsement. Guide texts and layouts: CC BY 4.0.

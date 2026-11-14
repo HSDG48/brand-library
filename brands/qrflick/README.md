@@ -1,49 +1,48 @@
 # QRflick
 
+![QRflick](preview-logos.png)
+
+[English](#english) · [Español](#español)
+
+## English
+
 *Print once. Change forever.*
 
 QRflick is a QR code you can change after it's printed. You print once and change where it points from your phone. Your codes keep working even if you stop paying.
 
-Website: [qrflick.com](https://qrflick.com) · Brand page: [https://hsdg48.github.io/brand-library/brands/qrflick/](https://hsdg48.github.io/brand-library/brands/qrflick/)
+Web: [qrflick.com](https://qrflick.com) · Brand page: [https://hsdg48.github.io/brand-library/brands/qrflick/](https://hsdg48.github.io/brand-library/brands/qrflick/)
 
-![QRflick logos](preview-logos.png)
+**Logos:** [`logo/svg/`](logo/svg/) (SVG) · [`logo/png/`](logo/png/) (PNG, 512–4096 px)
 
-## Logos
+**Colours:** Teal `#079A96` · Teal Deep `#077A76` · Teal Glow `#2BB5AE` · Ink `#1F2629` · Slate `#566266` · Line `#E2E6E5` · Paper `#F5F6F5` · Night `#0C0D0F` · Snow `#F2F3F3` · Teal Mist `#E6F4F3` · Amber `#E8A33D` · Red `#D9544D`
 
-Every layout and colour is in [`logo/svg/`](logo/svg/) (vector) and [`logo/png/`](logo/png/) (transparent PNG, 512 to 4096 px wide).
+**Fonts:** Archivo (Google Fonts)
 
-## Colours
+- **Brand guide:** [Brand guide · English](guide/qrflick-brand-guidelines-en.pdf) · [Read online · English](guide/index.en.html) · [Brand guide · Español](guide/qrflick-brand-guidelines-es.pdf) · [Read online · Español](guide/index.html)
+- **Business profile:** [Business profile · English](profile/qrflick-business-profile-en.pdf) · [Profile text · English](profile/qrflick-business-profile-en.md) · [Business profile · Español](profile/qrflick-business-profile-es.pdf) · [Profile text · Español](profile/qrflick-business-profile-es.md)
+- **Stationery:** [Letterhead](stationery/letterhead-en.pdf) · [Email signature](stationery/email-signature-en.html) · [Business card](stationery/business-card-en-preview.png)
+- **Icons:** [Favicon](icons/favicon.svg) · [Favicon](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon 512 maskable](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
+- **Social media images:** [`social/`](social/)
 
-| Colour | HEX |
-|---|---|
-| Teal | `#079A96` |
-| Teal Deep | `#077A76` |
-| Teal Glow | `#2BB5AE` |
-| Ink | `#1F2629` |
-| Slate | `#566266` |
-| Line | `#E2E6E5` |
-| Paper | `#F5F6F5` |
-| Night | `#0C0D0F` |
-| Snow | `#F2F3F3` |
-| Teal Mist | `#E6F4F3` |
-| Amber | `#E8A33D` |
-| Red | `#D9544D` |
+## Español
 
-## Fonts
+*Imprime una vez. Cámbialo siempre.*
 
-Archivo (free on Google Fonts).
+QRflick es un QR que puedes cambiar después de imprimirlo. Imprimes una vez y cambias adónde lleva desde el móvil. Tus códigos siguen funcionando aunque dejes de pagar.
 
-## Downloads
+Web: [qrflick.com](https://qrflick.com) · Página de marca: [https://hsdg48.github.io/brand-library/brands/qrflick/index.es.html](https://hsdg48.github.io/brand-library/brands/qrflick/index.es.html)
 
-**Brand guide:** [Brand guide · Español](guide/qrflick-brand-guidelines-es.pdf) · [Read online · Español](guide/index.html) · [Brand guide · English](guide/qrflick-brand-guidelines-en.pdf) · [Read online · English](guide/index.en.html)
+**Logotipos:** [`logo/svg/`](logo/svg/) (SVG) · [`logo/png/`](logo/png/) (PNG, 512–4096 px)
 
-**Business profile:** [Business profile · Español](profile/qrflick-business-profile-es.pdf) · [Profile text · Español](profile/qrflick-business-profile-es.md) · [Business profile · English](profile/qrflick-business-profile-en.pdf) · [Profile text · English](profile/qrflick-business-profile-en.md)
+**Colores:** Teal `#079A96` · Teal Deep `#077A76` · Teal Glow `#2BB5AE` · Ink `#1F2629` · Slate `#566266` · Line `#E2E6E5` · Paper `#F5F6F5` · Night `#0C0D0F` · Snow `#F2F3F3` · Teal Mist `#E6F4F3` · Amber `#E8A33D` · Red `#D9544D`
 
-**Stationery:** [Letterhead · Español](stationery/letterhead-es.pdf) · [Email signature · Español](stationery/email-signature-es.html) · [Business card · Español](stationery/business-card-es-preview.png) · [Letterhead · English](stationery/letterhead-en.pdf) · [Email signature · English](stationery/email-signature-en.html) · [Business card · English](stationery/business-card-en-preview.png)
+**Tipografías:** Archivo (Google Fonts)
 
-**Icons:** [Favicon SVG](icons/favicon.svg) · [Favicon ICO](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon maskable-512](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
-
-Social media images (avatars, covers, Open Graph) are in [`social/`](social/).
+- **Manual de marca:** [Manual de marca · Español](guide/qrflick-brand-guidelines-es.pdf) · [Leer online · Español](guide/index.html) · [Manual de marca · English](guide/qrflick-brand-guidelines-en.pdf) · [Leer online · English](guide/index.en.html)
+- **Perfil de empresa:** [Perfil de empresa · Español](profile/qrflick-business-profile-es.pdf) · [Texto del perfil · Español](profile/qrflick-business-profile-es.md) · [Perfil de empresa · English](profile/qrflick-business-profile-en.pdf) · [Texto del perfil · English](profile/qrflick-business-profile-en.md)
+- **Papelería:** [Papel con membrete](stationery/letterhead-es.pdf) · [Firma de email](stationery/email-signature-es.html) · [Tarjeta de visita](stationery/business-card-es-preview.png)
+- **Iconos:** [Favicon](icons/favicon.svg) · [Favicon](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon 512 maskable](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
+- **Imágenes para redes sociales:** [`social/`](social/)
 
 ---
-The QRflick name and logos are trademarks of their owner. Use them to refer to QRflick; please don't alter them.
+The logos and brand names are trademarks of their owners. You are welcome to use them to refer to the brand (press, directories, partner pages). Please don't alter them or suggest an endorsement. Guide texts and layouts: CC BY 4.0.
