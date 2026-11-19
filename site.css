@@ -134,7 +134,7 @@ main>.block:first-child{border-top:0}
 .shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
 .shot{background:var(--white);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;text-decoration:none;font-size:13px;color:var(--muted);transition:transform .2s}
 .shot:hover{transform:translateY(-3px)}
-.shot img{width:100%;aspect-ratio:16/9;object-fit:cover;background:#f3f2ee}
+.shot img{width:100%;aspect-ratio:4/3;object-fit:contain;padding:14px;background:#f3f2ee}
 .shot span{display:block;padding:10px 14px;text-transform:capitalize}
 
 .foot{background:var(--ink);color:#a3a8b0;padding:48px 0 56px;margin-top:40px;font-size:14px}
