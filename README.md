@@ -21,6 +21,7 @@ Official logos, brand guides and media files for our brands. Free to download fo
 | [Shamsa Foundation](brands/shamsa-foundation/) | Light for every home. | []() |
 | [Zarina IT](brands/shamsa-foundation/zarina-it/) | Skills for a brighter future. | []() |
 | [Subhani Impex](brands/subhani-impex/) | Gateway to Global Business Growth | [subhaniimpex.com](https://subhaniimpex.com) |
+| [Grupo Verto5](brands/grupo-verto5/) | Full project control | [grupoverto5.com](https://grupoverto5.com) |
 
 **In every kit:** Logos in every layout and colour, SVG and transparent PNG · Brand guide, PDF and web, in Spanish and English · Business profile with ready-to-copy company text · Colours, fonts, favicons, social images and stationery.
 
@@ -45,6 +46,7 @@ Logotipos oficiales, manuales de marca y archivos para medios de nuestras marcas
 | [Shamsa Foundation](brands/shamsa-foundation/) | Light for every home. | []() |
 | [Zarina IT](brands/shamsa-foundation/zarina-it/) | Skills for a brighter future. | []() |
 | [Subhani Impex](brands/subhani-impex/) | Gateway to Global Business Growth | [subhaniimpex.com](https://subhaniimpex.com) |
+| [Grupo Verto5](brands/grupo-verto5/) | Control total del proyecto | [grupoverto5.com](https://grupoverto5.com) |
 
 **En cada kit:** Logotipos en todas las versiones y colores, SVG y PNG transparente · Manual de marca, PDF y web, en español e inglés · Perfil de empresa con textos listos para copiar · Colores, tipografías, favicons, imágenes para redes y papelería.
 
