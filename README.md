@@ -18,6 +18,7 @@ Official logos, brand guides and media files for our brands. Free to download fo
 | [QRflick](brands/qrflick/) | Print once. Change forever. | [qrflick.com](https://qrflick.com) |
 | [LeedTech](brands/leedtech/) | Talent Beyond Borders | [leedtech.es](https://leedtech.es) |
 | [Contalex 365](brands/contalex-365/) | Your advisers, 365 days a year. | [contalex365.com](https://contalex365.com) |
+| [Shamsa Foundation](brands/shamsa-foundation/) | Light for every home. | []() |
 
 **In every kit:** Logos in every layout and colour, SVG and transparent PNG · Brand guide, PDF and web, in Spanish and English · Business profile with ready-to-copy company text · Colours, fonts, favicons, social images and stationery.
 
@@ -39,6 +40,7 @@ Logotipos oficiales, manuales de marca y archivos para medios de nuestras marcas
 | [QRflick](brands/qrflick/) | Imprime una vez. Cámbialo siempre. | [qrflick.com](https://qrflick.com) |
 | [LeedTech](brands/leedtech/) | Talent Beyond Borders | [leedtech.es](https://leedtech.es) |
 | [Contalex 365](brands/contalex-365/) | Tu asesoría, 365 días al año. | [contalex365.com](https://contalex365.com) |
+| [Shamsa Foundation](brands/shamsa-foundation/) | Light for every home. | []() |
 
 **En cada kit:** Logotipos en todas las versiones y colores, SVG y PNG transparente · Manual de marca, PDF y web, en español e inglés · Perfil de empresa con textos listos para copiar · Colores, tipografías, favicons, imágenes para redes y papelería.
 
