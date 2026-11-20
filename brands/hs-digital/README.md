@@ -23,6 +23,7 @@ Web: [hsdigital.es](https://hsdigital.es) · Brand page: [https://hsdg48.github.
 - **Stationery:** [Letterhead](stationery/letterhead-en.pdf) · [Email signature](stationery/email-signature-en.html) · [Business card](stationery/business-card-en-preview.png)
 - **Icons:** [Favicon](icons/favicon.svg) · [Favicon](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon 512 maskable](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
 - **Social media images:** [`social/`](social/)
+- **WhatsApp group pictures:** [`whatsapp/`](whatsapp/)
 
 ## Español
 
@@ -43,6 +44,7 @@ Web: [hsdigital.es](https://hsdigital.es) · Página de marca: [https://hsdg48.g
 - **Papelería:** [Papel con membrete](stationery/letterhead-es.pdf) · [Firma de email](stationery/email-signature-es.html) · [Tarjeta de visita](stationery/business-card-es-preview.png)
 - **Iconos:** [Favicon](icons/favicon.svg) · [Favicon](icons/favicon.ico) · [Apple touch icon](icons/apple-touch-icon.png) · [App icon 192](icons/icon-192.png) · [App icon 512](icons/icon-512.png) · [App icon 512 maskable](icons/icon-maskable-512.png) · [Web manifest](icons/site.webmanifest)
 - **Imágenes para redes sociales:** [`social/`](social/)
+- **Fotos de grupos de WhatsApp:** [`whatsapp/`](whatsapp/)
 
 ---
 The logos and brand names are trademarks of their owners. You are welcome to use them to refer to the brand (press, directories, partner pages). Please don't alter them or suggest an endorsement. Guide texts and layouts: CC BY 4.0.

@@ -20,7 +20,7 @@
         var v = vs[+btn.getAttribute('data-i')];
         img.src = v.s; stage.style.background = v.bg || '';
         files.innerHTML = '<a href="' + v.s + '" download>' + DL + 'SVG</a>' + v.p.map(function (p) {
-          return '<a href="' + p + '" download>' + DL + 'PNG ' + p.match(/-(\d+)w\.png$/)[1] + '</a>';
+          return '<a href="' + p + '" download>' + DL + 'PNG ' + p.match(/-(\d+)w?\.png$/)[1] + '</a>';
         }).join('');
         card.querySelectorAll('.ways button').forEach(function (b) { b.removeAttribute('aria-pressed'); });
         btn.setAttribute('aria-pressed', 'true');
